@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
-class HealthCareViewController: ViewController {
+class HealthCareViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

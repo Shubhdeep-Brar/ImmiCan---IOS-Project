@@ -1,15 +1,15 @@
 //
-//  Banking.swift
+//  Sin.swift
 //  ImmiCan
 //
-//  Created by Shubhdeep on 2023-01-30.
+//  Created by Ramneek Kaur on 2023-01-23.
 //
+
 
 import Foundation
 import UIKit
 @IBDesignable
-
-class Banking : UIView {
+class customizedViewForTutorials : UIView{
   @IBInspectable var color : UIColor? = UIColor.white{
     didSet {
       //self.layer.backgroundColor = self.color?.cgColor
@@ -17,15 +17,12 @@ class Banking : UIView {
   }
   override init(frame: CGRect) {
     super.init(frame: frame)
-    backgroundColor = UIColor.init(red: 255.0, green: 141.0, blue: 135.0, alpha: 1)
-      
-      //init(_colorLiteralRed: 255, green: 141, blue: 135, alpha: 1)
+    backgroundColor = UIColor.init(_colorLiteralRed: 255, green: 141, blue: 135, alpha: 1)
   }
   //rgba(255, 141, 135, 1)
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
       backgroundColor = UIColor(red: 1.0, green: 0.529, blue: 0.529, alpha: 1.0)
-      
   }
   // Only override draw() if you perform custom drawing.
   // An empty implementation adversely affects performance during animation.
@@ -45,7 +42,17 @@ class Banking : UIView {
     path.addLine(to: p3)
     path.addLine(to: p4)
     path.close()
-    (color ?? UIColor.clear).set()
+    (color ?? UIColor.white).set()
     path.fill()
   }
 }
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class PageVC1: UIViewController {
+class tutorialHandler: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

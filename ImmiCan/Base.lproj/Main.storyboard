@@ -71,7 +71,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSw-Sq-x8z">
-                                                        <rect key="frame" x="0.0" y="0.0" width="341" height="55.666666666666664"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="341" height="55"/>
                                                         <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="341" id="bI1-lR-qjX"/>
@@ -89,11 +89,11 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="sG2-7H-Kx7" kind="show" id="G07-sE-O35"/>
+                                                            <segue destination="sG2-7H-Kx7" kind="show" id="oyF-cb-6cu"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjM-98-XIX">
-                                                        <rect key="frame" x="0.0" y="75.666666666666686" width="341" height="55"/>
+                                                        <rect key="frame" x="0.0" y="74.999999999999943" width="341" height="55.666666666666657"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="341" id="9Zd-RC-8zH"/>
                                                             <constraint firstAttribute="height" constant="55" id="qDF-1i-yBy"/>
@@ -144,7 +144,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="vUQ-2N-I5F"/>
                     <connections>
-                        <outlet property="loginButton" destination="OSw-Sq-x8z" id="Jpd-9S-SoN"/>
+                        <outlet property="loginButton" destination="OSw-Sq-x8z" id="o6D-eK-SOZ"/>
                         <outlet property="signUpButton" destination="fjM-98-XIX" id="g9U-jh-INl"/>
                     </connections>
                 </viewController>
@@ -474,7 +474,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-2" y="341" width="390" height="162"/>
+                                <rect key="frame" x="-4" y="341" width="392" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -498,9 +498,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="8Xa-ND-BZl" kind="show" id="zNl-Z3-grF"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TUd-Ra-dae"/>
@@ -519,7 +516,7 @@
         <scene sceneID="CBe-wL-z1x">
             <objects>
                 <viewController id="4gD-8u-9hh" customClass="createAccountViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="G8M-jV-poO">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="G8M-jV-poO">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -651,35 +648,15 @@
             </objects>
             <point key="canvasLocation" x="3777" y="673"/>
         </scene>
-        <!--PageVC1-->
+        <!--Tutorial Handler-->
         <scene sceneID="kS2-na-BK1">
             <objects>
-                <viewController storyboardIdentifier="PageVC1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bGy-I1-VhZ" customClass="PageVC1" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="welcomePage" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bGy-I1-VhZ" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Pf-Y0-Dzs">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Welcome" translatesAutoresizingMaskIntoConstraints="NO" id="cfA-Yl-YaV">
-                                <rect key="frame" x="53" y="242" width="291" height="231"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf9-t4-m3E">
-                                <rect key="frame" x="57" y="443" width="240" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Welcome !!
-</string>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to the country of your dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnA-rQ-HCg">
-                                <rect key="frame" x="97" y="471" width="226" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45W-Dp-uL2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45W-Dp-uL2" userLabel="Take a quick welcome  tour to know about  the documents you would need as a new immigrant.">
                                 <rect key="frame" x="16" y="524" width="351" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Take a quick welcome  tour to know about 
@@ -687,6 +664,24 @@ the documents you would need as a new immigrant.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" fixedFrame="YES" image="Welcome" translatesAutoresizingMaskIntoConstraints="NO" id="cfA-Yl-YaV">
+                                <rect key="frame" x="31" y="182.00000000000003" width="328" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf9-t4-m3E">
+                                <rect key="frame" x="82" y="455" width="226" height="32.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" fixedFrame="YES" text="to the country of your dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnA-rQ-HCg">
+                                <rect key="frame" x="82" y="495.33333333333331" width="226" height="20.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OZ3-ec-DkA"/>
@@ -696,26 +691,28 @@ the documents you would need as a new immigrant.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qf6-fa-pD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4571" y="673"/>
+            <point key="canvasLocation" x="4570.7692307692305" y="672.51184834123217"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="q0h-HL-dhx">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="VcF-wp-TJQ" customClass="PageViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="VcF-wp-TJQ" customClass="PageViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rgE-9D-cgg"/>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEt-yV-Q98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationItem id="qf4-ni-9s2"/>
             </objects>
             <point key="canvasLocation" x="5286" y="673"/>
         </scene>
-        <!--View Controller-->
+        <!--Tutorial Handler-->
         <scene sceneID="gPj-Zq-xfj">
             <objects>
-                <viewController id="7J0-Ff-7iB" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="o7r-Zl-q8h">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                <viewController storyboardIdentifier="healthCare" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7J0-Ff-7iB" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o7r-Zl-q8h" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5X1-MR-b1C" customClass="HealthCare" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5X1-MR-b1C" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -787,15 +784,15 @@ service.</string>
             </objects>
             <point key="canvasLocation" x="4608" y="4186"/>
         </scene>
-        <!--View Controller-->
+        <!--Tutorial Handler-->
         <scene sceneID="k1a-sM-YXB">
             <objects>
-                <viewController id="f9n-2z-2Z4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vVO-fy-NlT">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                <viewController storyboardIdentifier="bankingInformation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f9n-2z-2Z4" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vVO-fy-NlT" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlp-GT-KYQ" customClass="Banking" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlp-GT-KYQ" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -875,15 +872,15 @@ service.</string>
             </objects>
             <point key="canvasLocation" x="1906.1538461538462" y="-2.1327014218009479"/>
         </scene>
-        <!--PageVC3-->
+        <!--Tutorial Handler-->
         <scene sceneID="jMS-j3-QfJ">
             <objects>
-                <viewController storyboardIdentifier="PageVC3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gpk-df-a8b" customClass="PageVC3" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hRH-4g-LHd">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                <viewController storyboardIdentifier="provincialId" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gpk-df-a8b" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hRH-4g-LHd" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYA-Qt-KlW" customClass="provincialIdHandler" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYA-Qt-KlW" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -935,7 +932,6 @@ service.</string>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sc0-nE-HKe"/>
-                        <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ov2-Kn-W9g"/>
                 </viewController>
@@ -943,15 +939,15 @@ service.</string>
             </objects>
             <point key="canvasLocation" x="4608" y="2867"/>
         </scene>
-        <!--PageVC4-->
+        <!--Tutorial Handler-->
         <scene sceneID="bgj-ZY-ThF">
             <objects>
-                <viewController storyboardIdentifier="PageVC4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aVT-7c-orm" customClass="PageVC4" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="guq-UZ-yPO">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                <viewController storyboardIdentifier="driversLicense" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aVT-7c-orm" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="guq-UZ-yPO" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mkh-lG-9k4" customClass="provincialIdHandler" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mkh-lG-9k4" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -1003,7 +999,6 @@ service.</string>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="w0i-m1-tpW"/>
-                        <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dOY-lk-ti4"/>
                 </viewController>
@@ -1011,15 +1006,15 @@ service.</string>
             </objects>
             <point key="canvasLocation" x="4608" y="3529"/>
         </scene>
-        <!--PageVC2-->
+        <!--Tutorial Handler-->
         <scene sceneID="RyL-sT-F4D">
             <objects>
-                <viewController storyboardIdentifier="PageVC2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Xa-ND-BZl" customClass="PageVC2" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WF5-0T-gQa" customClass="Sin" customModule="ImmiCan" customModuleProvider="target">
+                <viewController storyboardIdentifier="sinNumber" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8Xa-ND-BZl" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WF5-0T-gQa" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2w2-52-WXA" customClass="Sin" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2w2-52-WXA" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
