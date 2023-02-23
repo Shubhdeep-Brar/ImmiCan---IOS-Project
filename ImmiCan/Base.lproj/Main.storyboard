@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cd6-mp-2y5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vJw-Cr-7Kl">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -474,7 +474,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-4" y="341" width="392" height="162"/>
+                                <rect key="frame" x="-4" y="341" width="391" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -516,7 +516,7 @@
         <scene sceneID="CBe-wL-z1x">
             <objects>
                 <viewController id="4gD-8u-9hh" customClass="createAccountViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="G8M-jV-poO">
+                    <view key="view" contentMode="scaleToFill" id="G8M-jV-poO">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -939,6 +939,22 @@ service.</string>
             </objects>
             <point key="canvasLocation" x="4608" y="2867"/>
         </scene>
+        <!--Connections-->
+        <scene sceneID="vWI-Xi-AKx">
+            <objects>
+                <viewController id="zVU-I1-c7X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aEE-yV-irG">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="JyT-P3-0lo"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Connections" id="3j0-Dx-JNS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aAf-y4-Gbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5788" y="2878"/>
+        </scene>
         <!--Tutorial Handler-->
         <scene sceneID="bgj-ZY-ThF">
             <objects>
@@ -1065,13 +1081,170 @@ get more information on sin.
             </objects>
             <point key="canvasLocation" x="4608" y="2199"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="LAt-rn-O7v">
+            <objects>
+                <tabBarController id="vJw-Cr-7Kl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tQI-Cy-rFa">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Oes-ns-3ba" kind="relationship" relationship="viewControllers" id="uQv-Up-Xih"/>
+                        <segue destination="YWl-gG-3K6" kind="relationship" relationship="viewControllers" id="Zch-4U-mq8"/>
+                        <segue destination="0lf-Ug-2UF" kind="relationship" relationship="viewControllers" id="Tzc-S4-uUh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6eu-Mp-tUD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6718" y="1493"/>
+        </scene>
+        <!--Connections-->
+        <scene sceneID="aTh-N8-Mip">
+            <objects>
+                <navigationController id="Oes-ns-3ba" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Connections" image="friends" id="Ekd-Nk-Id0"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Y7-mT-JT1">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zVU-I1-c7X" kind="relationship" relationship="rootViewController" id="zSP-Ci-y78"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tZN-l9-LF5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5789" y="2185"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="dVn-SF-IOJ">
+            <objects>
+                <navigationController id="YWl-gG-3K6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="HomeIcon" id="v5O-JU-Qpb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LSu-UY-IqS">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zis-VN-AvL" kind="relationship" relationship="rootViewController" id="J1D-et-8Ha"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQG-Ni-4lO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6717" y="2185"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="7dS-Ou-9ls">
+            <objects>
+                <navigationController id="0lf-Ug-2UF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="Profile" id="ccI-BU-aAT"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2NA-2f-cjA">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="RIi-Ix-kqT" kind="relationship" relationship="rootViewController" id="hKb-4p-sMZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAu-RC-cDy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7652" y="2185"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="4Wf-PV-1bn">
+            <objects>
+                <viewController id="zis-VN-AvL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="abQ-hs-Fu1">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coc-ef-Mw2">
+                                <rect key="frame" x="49" y="363" width="126" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Jobs"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxq-8y-Qit">
+                                <rect key="frame" x="218" y="363" width="126" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Housing"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pa8-SP-zmi">
+                                <rect key="frame" x="49" y="512" width="133" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Welcome Tour"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsL-cU-VDk">
+                                <rect key="frame" x="218" y="512" width="126" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Marketplace"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="powered by AI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXg-2a-mcX">
+                                <rect key="frame" x="149" y="299" width="69" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mc5-VB-9GL">
+                                <rect key="frame" x="43" y="266" width="301" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Ask me anything ?"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vxK-L4-RVO"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="8Lf-Sl-KJe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2jA-O4-Udu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6716.9230769230771" y="2877.7251184834122"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="zIR-DC-6u4">
+            <objects>
+                <viewController id="RIi-Ix-kqT" customClass="ProfileVC" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q8y-RW-huZ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="il3-0f-y3F">
+                                <rect key="frame" x="129" y="175" width="151" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Manage Profile">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="manageProfileButton" destination="RIi-Ix-kqT" eventType="touchDown" id="0Ff-gx-RtT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="E99-G6-TmX"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profile" id="mLq-A6-6Ke"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rhb-4e-M8d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7651" y="2878"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Banking" width="1920" height="1920"/>
+        <image name="HomeIcon" width="18" height="19"/>
         <image name="Logo" width="242" height="277"/>
+        <image name="Profile" width="18" height="20"/>
         <image name="Welcome" width="328" height="252"/>
         <image name="driver's license" width="1920" height="1356"/>
         <image name="facebookLogo" width="33" height="26"/>
+        <image name="friends" width="29" height="19"/>
         <image name="googleLogo" width="30" height="33"/>
         <image name="goveronmentId" width="5556" height="5556"/>
         <image name="sin image" width="640" height="640"/>
@@ -1081,6 +1254,15 @@ get more information on sin.
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
