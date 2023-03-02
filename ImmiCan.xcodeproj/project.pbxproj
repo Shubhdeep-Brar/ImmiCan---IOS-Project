@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ABC7229AEEC030070B334 /* selectingDocument.swift */; };
+		044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ABC7429AEF2190070B334 /* DatePicker.swift */; };
 		04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04904B43295E955700E8750B /* forgetPassViewcontroller.swift */; };
 		049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049051AE296A752300FCF4E3 /* loginViewController.swift */; };
 		049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049051B0296A771400FCF4E3 /* createAccountViewController.swift */; };
 		04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF75D29A7278000076378 /* ImmigrationDocumentData.swift */; };
-		04AEF76229A72F8200076378 /* ImmigrationDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF76129A72F8200076378 /* ImmigrationDocumentPicker.swift */; };
 		04BE813E296EAB6100E86ABB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */; };
 		04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */; };
 		04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */; };
@@ -27,11 +28,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044ABC7229AEEC030070B334 /* selectingDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectingDocument.swift; sourceTree = "<group>"; };
+		044ABC7429AEF2190070B334 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		04904B43295E955700E8750B /* forgetPassViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPassViewcontroller.swift; sourceTree = "<group>"; };
 		049051AE296A752300FCF4E3 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		049051B0296A771400FCF4E3 /* createAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = "<group>"; };
 		04AEF75D29A7278000076378 /* ImmigrationDocumentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationDocumentData.swift; sourceTree = "<group>"; };
-		04AEF76129A72F8200076378 /* ImmigrationDocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationDocumentPicker.swift; sourceTree = "<group>"; };
 		04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04BE9CD629567FEB0079FBA3 /* ImmiCan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmiCan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +105,8 @@
 				04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */,
 				7AB8C9692992068C00C751C4 /* PageViewController.swift */,
 				7AB8C96B2992093700C751C4 /* tutorialHandler.swift */,
-				04AEF76129A72F8200076378 /* ImmigrationDocumentPicker.swift */,
+				044ABC7229AEEC030070B334 /* selectingDocument.swift */,
+				044ABC7429AEF2190070B334 /* DatePicker.swift */,
 			);
 			path = ImmiCan;
 			sourceTree = "<group>";
@@ -187,8 +190,9 @@
 				FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */,
 				049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */,
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
+				044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */,
 				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
-				04AEF76229A72F8200076378 /* ImmigrationDocumentPicker.swift in Sources */,
+				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
