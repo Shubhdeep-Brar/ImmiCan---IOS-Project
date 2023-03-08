@@ -10,18 +10,12 @@ import Foundation
 
 import UIKit
 
-enum DocumentType : String{
-    case Study_Permit
-    case Work_Permit
-    case Temporary_Resident_permit
-    case Visitor_Record
-}
 
 class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
     
     @IBOutlet weak var dateField: UITextField!
     
-    private let documentType = DocumentType.allCases
+    //private let documentType = DocumentType.allCases
     
     @IBOutlet weak var immigrationDocumentPickerView: UIPickerView!
     
@@ -40,7 +34,6 @@ class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDa
         
         createDatePicker()
         
-       // immigrationDocumentPickerView.tintColor = .white
         immigrationDocumentPickerView.backgroundColor = .systemGray4
         immigrationDocumentPickerView.tintColor = .white
     }
@@ -66,7 +59,7 @@ class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDa
         
         
         
-            print(documentData[row])
+        print(documentData[row])
         //        documentName.setTitle("Enter the expiry date of your \(documentData[row]).", for: .normal)
     }
     
@@ -109,10 +102,16 @@ class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDa
             let reminderDate = datePicker.date
             
             let alertViewController = UIAlertController(title: .none, message: "You will receive reminder notifications on \(dateFormatter.string(from: reminderDate))" , preferredStyle: .alert)
-
-            let action = UIAlertAction(title: "Continue", style: .cancel)
             
-            self.navigationController?.present(alertViewController, animated: true)
+            
+            let action = UIAlertAction(title: "Continue", style: .cancel, handler: { _ in
+                let altertVC = self.storyboard!.instantiateViewController(withIdentifier: "altertVC")
+                self.navigationController!.pushViewController(altertVC, animated: true)
+            })
+            
+            self.present(alertViewController, animated: true)
+            
+           // self.navigationController?.present(alertViewController, animated: true)
             
             
             
@@ -120,19 +119,5 @@ class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDa
             
         }
     }
-}
-extension DocumentType: CustomStringConvertible,CaseIterable{
-    var description: String {
-        rawValue.capitalized
-    }
-    
-}
-
-extension Date{
-    
-    var month: Int {
-        return Calendar.current.component(.month,  from: self)
-    }
-    
 }
 

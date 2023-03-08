@@ -859,7 +859,7 @@ the following list</string>
         <!--View Controller-->
         <scene sceneID="YoC-uv-ns6">
             <objects>
-                <viewController id="zpG-V0-lUp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="altertVC" id="zpG-V0-lUp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GuI-LY-pbF">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
