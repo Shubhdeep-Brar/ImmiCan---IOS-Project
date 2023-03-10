@@ -9,11 +9,18 @@ import Foundation
 import UIKit
 
 class ProfileVC : UIViewController {
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        myImageView.layer.cornerRadius = myImageView.frame.size.width / 2
+        myImageView.clipsToBounds = true
     }
         
+    @IBOutlet weak var myImageView : UIImageView!
+    
+    
         @IBAction func manageProfileButton() {
             
             let vc = UIViewController()

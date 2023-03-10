@@ -474,7 +474,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-4" y="341" width="391" height="162"/>
+                                <rect key="frame" x="-4" y="341" width="390" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1160,45 +1160,77 @@ get more information on sin.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="coc-ef-Mw2">
-                                <rect key="frame" x="49" y="363" width="126" height="118"/>
+                                <rect key="frame" x="36" y="546" width="155" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Jobs"/>
+                                <buttonConfiguration key="configuration" style="gray" image="jobs" imagePlacement="top" title="Jobs" imagePadding="5">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.53725490196078429" green="0.54117647058823526" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cxq-8y-Qit">
-                                <rect key="frame" x="218" y="363" width="126" height="118"/>
+                                <rect key="frame" x="199" y="461" width="155" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Housing"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pa8-SP-zmi">
-                                <rect key="frame" x="49" y="512" width="133" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Welcome Tour"/>
+                                <buttonConfiguration key="configuration" style="gray" image="housingMenu" imagePlacement="top" title="Housing" imagePadding="5" cornerStyle="dynamic">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.78823529411764703" green="0.73333333333333328" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsL-cU-VDk">
-                                <rect key="frame" x="218" y="512" width="126" height="118"/>
+                                <rect key="frame" x="199" y="609" width="155" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Marketplace"/>
+                                <buttonConfiguration key="configuration" style="gray" image="marketplace" imagePlacement="top" title="Marketplace" imagePadding="5">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.71764705882352942" green="0.82745098039215681" blue="0.87450980392156863" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mc5-VB-9GL">
+                                <rect key="frame" x="16" y="289" width="358" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ask me anything ?">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAW-3Z-ghG">
+                                <rect key="frame" x="16" y="108" width="358" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="profilePic" imagePlacement="leading" title="Alexander Valley" imagePadding="30">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large" weight="semibold"/>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="-100" bottom="0.0" trailing="0.0"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pa8-SP-zmi">
+                                <rect key="frame" x="36" y="398" width="155" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="15" height="10"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="welcomeTour" imagePlacement="top" title="Welcome Tour" imagePadding="5">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.83921568627450982" green="0.93725490196078431" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="powered by AI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXg-2a-mcX">
-                                <rect key="frame" x="149" y="299" width="69" height="12"/>
+                                <rect key="frame" x="161" y="332" width="69" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mc5-VB-9GL">
-                                <rect key="frame" x="43" y="266" width="301" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Ask me anything ?"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vxK-L4-RVO"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="8Lf-Sl-KJe"/>
                 </viewController>
@@ -1209,13 +1241,13 @@ get more information on sin.
         <!--Profile-->
         <scene sceneID="zIR-DC-6u4">
             <objects>
-                <viewController id="RIi-Ix-kqT" customClass="ProfileVC" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RIi-Ix-kqT" customClass="ProfileVC" customModule="ImmiCan" customModuleProvider="target" propertyAccessControl="all" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q8y-RW-huZ">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="il3-0f-y3F">
-                                <rect key="frame" x="129" y="175" width="151" height="37"/>
+                                <rect key="frame" x="120" y="372" width="151" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Manage Profile">
@@ -1225,15 +1257,27 @@ get more information on sin.
                                     <action selector="manageProfileButton" destination="RIi-Ix-kqT" eventType="touchDown" id="0Ff-gx-RtT"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="myprofilePic" translatesAutoresizingMaskIntoConstraints="NO" id="XdO-x6-0Wa">
+                                <rect key="frame" x="121" y="120" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="roundProfile"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E99-G6-TmX"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Profile" id="mLq-A6-6Ke"/>
+                    <navigationItem key="navigationItem" title="Profile" id="mLq-A6-6Ke">
+                        <barButtonItem key="rightBarButtonItem" title="Edit" id="Qil-Gy-79n"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="myImageView" destination="XdO-x6-0Wa" id="Bcq-jy-F9S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhb-4e-M8d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7651" y="2878"/>
+            <point key="canvasLocation" x="7650.7692307692305" y="2877.7251184834122"/>
         </scene>
     </scenes>
     <resources>
@@ -1247,8 +1291,17 @@ get more information on sin.
         <image name="friends" width="29" height="19"/>
         <image name="googleLogo" width="30" height="33"/>
         <image name="goveronmentId" width="5556" height="5556"/>
+        <image name="housingMenu" width="30" height="30"/>
+        <image name="jobs" width="30" height="30"/>
+        <image name="marketplace" width="30" height="30"/>
+        <image name="myprofilePic" width="800" height="800"/>
+        <image name="profilePic" width="51" height="51"/>
         <image name="sin image" width="640" height="640"/>
         <image name="vecteezy_medical-center-hospital-building-vector-design_" width="1920" height="1920"/>
+        <image name="welcomeTour" width="30" height="30"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -1260,9 +1313,6 @@ get more information on sin.
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
