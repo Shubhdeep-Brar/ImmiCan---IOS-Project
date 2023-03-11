@@ -24,6 +24,8 @@
 		7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */; };
 		7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8C9692992068C00C751C4 /* PageViewController.swift */; };
 		7AB8C96C2992093700C751C4 /* tutorialHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8C96B2992093700C751C4 /* tutorialHandler.swift */; };
+		7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */; };
+		7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */; };
 		FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */; };
 		FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721F9E29BAF10300EEA377 /* DataProvider.swift */; };
 		FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */; };
@@ -51,6 +53,8 @@
 		7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProvincePicker.swift; sourceTree = "<group>"; };
 		7AB8C9692992068C00C751C4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		7AB8C96B2992093700C751C4 /* tutorialHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialHandler.swift; sourceTree = "<group>"; };
+		7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProfileVC.swift; sourceTree = "<group>"; };
 		FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizedViewForTutorials.swift; sourceTree = "<group>"; };
 		FB721F9E29BAF10300EEA377 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
@@ -114,8 +118,13 @@
 				04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */,
 				7AB8C9692992068C00C751C4 /* PageViewController.swift */,
 				7AB8C96B2992093700C751C4 /* tutorialHandler.swift */,
+<<<<<<< HEAD
 				044ABC7229AEEC030070B334 /* selectingDocument.swift */,
 				044ABC7429AEF2190070B334 /* DatePicker.swift */,
+=======
+				7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */,
+				7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */,
+>>>>>>> feature/TabBarControllers
 			);
 			path = ImmiCan;
 			sourceTree = "<group>";
@@ -213,7 +222,11 @@
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
 				044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */,
 				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
+<<<<<<< HEAD
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
+=======
+				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
+>>>>>>> feature/TabBarControllers
 				04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
@@ -222,7 +235,11 @@
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,
 				04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */,
 				7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */,
+<<<<<<< HEAD
 				FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */,
+=======
+				7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */,
+>>>>>>> feature/TabBarControllers
 				049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */,
 				7AB8C96C2992093700C751C4 /* tutorialHandler.swift in Sources */,
 			);
