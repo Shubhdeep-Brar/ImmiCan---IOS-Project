@@ -117,5 +117,6 @@ class FriendCell: UITableViewCell{
         locationLabel.text = location
         avatarView.image = image
     }
+    //cells
 }
 
