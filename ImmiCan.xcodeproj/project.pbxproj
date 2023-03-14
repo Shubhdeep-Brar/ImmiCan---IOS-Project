@@ -24,6 +24,10 @@
 		7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */; };
 		7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */; };
 		FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */; };
+		FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721F9E29BAF10300EEA377 /* DataProvider.swift */; };
+		FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */; };
+		FB721FA329BAF21200EEA377 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721FA229BAF21200EEA377 /* User.swift */; };
+		FB721FA529BAF24A00EEA377 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721FA429BAF24A00EEA377 /* FriendCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProfileVC.swift; sourceTree = "<group>"; };
 		FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizedViewForTutorials.swift; sourceTree = "<group>"; };
+		FB721F9E29BAF10300EEA377 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		FB721FA229BAF21200EEA377 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FB721FA429BAF24A00EEA377 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,7 @@
 		04BE9CD829567FEB0079FBA3 /* ImmiCan */ = {
 			isa = PBXGroup;
 			children = (
+				FB721F9D29BAF09C00EEA377 /* Friends */,
 				FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */,
 				04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */,
 				04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */,
@@ -98,6 +107,17 @@
 				7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */,
 			);
 			path = ImmiCan;
+			sourceTree = "<group>";
+		};
+		FB721F9D29BAF09C00EEA377 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				FB721F9E29BAF10300EEA377 /* DataProvider.swift */,
+				FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */,
+				FB721FA229BAF21200EEA377 /* User.swift */,
+				FB721FA429BAF24A00EEA377 /* FriendCell.swift */,
+			);
+			path = Friends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB721FA529BAF24A00EEA377 /* FriendCell.swift in Sources */,
 				FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */,
 				049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */,
 				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
@@ -183,10 +204,16 @@
 				04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
+				FB721FA329BAF21200EEA377 /* User.swift in Sources */,
+				FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */,
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,
 				04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */,
 				7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */,
+<<<<<<< HEAD
 				7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */,
+=======
+				FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */,
+>>>>>>> FriendsView
 				049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */,
 				7AB8C96C2992093700C751C4 /* tutorialHandler.swift in Sources */,
 			);
