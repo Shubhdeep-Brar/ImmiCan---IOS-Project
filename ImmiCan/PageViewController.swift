@@ -92,6 +92,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
    
 }
 
+<<<<<<< HEAD
 //import Foundation
 //import UIKit
 //
@@ -182,3 +183,8 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
 //        return true
 //    }
 //}
+=======
+//COMMENT
+//comment
+//Final merge
+>>>>>>> parent of b68e042 (Status Drop Down Resolved)
