@@ -6,14 +6,28 @@
 	<key>Key</key>
 	<string></string>
 	<key>NSDocumentPickerUsageDescription</key>
-=======
+	<string></string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>You can select photos</string>
 	<key>NSCameraUsageDescription</key>
 	<string>This app will use camera</string>
 	<key>CFBundleIdentifier</key>
->>>>>>> feature/MarketPlace
 	<string></string>
+=======
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.734025601142-qa2ago2dide4ituac3jdbi25a1pprio0</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>734025601142-qa2ago2dide4ituac3jdbi25a1pprio0.apps.googleusercontent.com</string>
+>>>>>>> Feature/Housing
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
