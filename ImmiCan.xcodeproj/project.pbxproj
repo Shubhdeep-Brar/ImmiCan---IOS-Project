@@ -69,7 +69,7 @@
 		FB9A4A7A29EF5A09004E76A5 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7929EF5A09004E76A5 /* FirebaseAnalyticsSwift */; };
 		FB9A4A7C29EF5A09004E76A5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7B29EF5A09004E76A5 /* FirebaseFirestore */; };
 		FB9A4A7F29EF5A87004E76A5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7E29EF5A87004E76A5 /* FirebaseAuth */; };
-		FB9A4A8329EF5BCF004E76A5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8229EF5BCF004E76A5 /* Message.swift */; };
+		FB9A4A8329EF5BCF004E76A5 /* MessageChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8229EF5BCF004E76A5 /* MessageChat.swift */; };
 		FB9A4A8529EF5BDC004E76A5 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8429EF5BDC004E76A5 /* Chat.swift */; };
 		FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */; };
 		FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */; };
@@ -139,7 +139,7 @@
 		FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		FB721FA229BAF21200EEA377 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FB721FA429BAF24A00EEA377 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
-		FB9A4A8229EF5BCF004E76A5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FB9A4A8229EF5BCF004E76A5 /* MessageChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageChat.swift; sourceTree = "<group>"; };
 		FB9A4A8429EF5BDC004E76A5 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
@@ -299,7 +299,7 @@
 		FB0648FC29EE103E00F5CA21 /* Chat  */ = {
 			isa = PBXGroup;
 			children = (
-				FB9A4A8229EF5BCF004E76A5 /* Message.swift */,
+				FB9A4A8229EF5BCF004E76A5 /* MessageChat.swift */,
 				FB9A4A8429EF5BDC004E76A5 /* Chat.swift */,
 				FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */,
 				FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */,
@@ -442,7 +442,7 @@
 				049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */,
 				FB09DD7329F3420B00BCB2DD /* AuthenticationViewModel.swift in Sources */,
 				FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */,
-				FB9A4A8329EF5BCF004E76A5 /* Message.swift in Sources */,
+				FB9A4A8329EF5BCF004E76A5 /* MessageChat.swift in Sources */,
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
 				047F55C229C55F5200CAD8B7 /* jobPosting.swift in Sources */,
 				047F55C629C652B200CAD8B7 /* JobCell.swift in Sources */,

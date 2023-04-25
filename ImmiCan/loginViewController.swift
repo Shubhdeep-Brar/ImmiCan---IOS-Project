@@ -37,4 +37,14 @@ class loginViewController: UIViewController {
     }
     */
 
+    @IBAction func tappedLoginButton(_ sender: Any) {
+        // direct to the welcome tour home page
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "welcomePage") as! tutorialHandler
+            self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
+
+
+
+
