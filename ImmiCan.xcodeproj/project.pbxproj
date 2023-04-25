@@ -22,6 +22,8 @@
 		04BE9CE629567FEC0079FBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE429567FEC0079FBA3 /* LaunchScreen.storyboard */; };
 		7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */; };
 		7A51291C29F380EB001D532C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291B29F380EB001D532C /* MenuVC.swift */; };
+		7A51291E29F3A326001D532C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291D29F3A326001D532C /* ChatVC.swift */; };
+		7A51292029F3AF97001D532C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291F29F3AF97001D532C /* Message.swift */; };
 		7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */; };
 		7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */; };
 		7A9CAC3029DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */; };
@@ -61,6 +63,8 @@
 		04BE9CE729567FEC0079FBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCareViewController.swift; sourceTree = "<group>"; };
 		7A51291B29F380EB001D532C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		7A51291D29F3A326001D532C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		7A51291F29F3AF97001D532C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProvincePicker.swift; sourceTree = "<group>"; };
 		7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceVC.swift; sourceTree = "<group>"; };
 		7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceHeaderReusableView.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				7AF99B9529E6978A00B7692A /* CreateListingVC.swift */,
 				7AF99B9729E922B200B7692A /* AddImageCell.swift */,
 				7A51291B29F380EB001D532C /* MenuVC.swift */,
+				7A51291D29F3A326001D532C /* ChatVC.swift */,
+				7A51291F29F3AF97001D532C /* Message.swift */,
 			);
 			path = ImmiCan;
 			sourceTree = "<group>";
@@ -264,12 +270,14 @@
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
 				04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */,
+				7A51292029F3AF97001D532C /* Message.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
 				7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */,
 				7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
 				FB721FA329BAF21200EEA377 /* User.swift in Sources */,
 				FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */,
+				7A51291E29F3A326001D532C /* ChatVC.swift in Sources */,
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,
 				7AF99B9629E6978A00B7692A /* CreateListingVC.swift in Sources */,
 				7A9CAC3029DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift in Sources */,
