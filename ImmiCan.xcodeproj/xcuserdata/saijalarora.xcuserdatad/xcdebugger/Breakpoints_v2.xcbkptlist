@@ -84,5 +84,240 @@
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF4FD6F9-E1D2-4979-A62E-5273B17F1AFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/Data/NameAndAvatarData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1020E6F1-EB70-4192-BE08-870058780C30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "detailedJobPage"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - 268b2b5151725ec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImmiCan.detailedJobPage.companyLogo.getter : __C.UIImageView"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - 52aa342cac2c5974"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIImageView in ImmiCan.detailedJobPage.companyLogo.getter : __C.UIImageView"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - 8bffe4a5219d62cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImmiCan.detailedJobPage.companyLogo.setter : __C.UIImageView"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - f7eba6f5cbf629de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImmiCan.detailedJobPage.companyLogo.modify : __C.UIImageView"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - 89ab5c9a6953efcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImmiCan.detailedJobPage.companyLogo.modify : __C.UIImageView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - fb4d211926206e11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImmiCan.detailedJobPage.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ImmiCan.detailedJobPage"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "1020E6F1-EB70-4192-BE08-870058780C30 - 14765671472da24b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImmiCan.detailedJobPage.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ImmiCan.detailedJobPage&gt;"
+                  moduleName = "ImmiCan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saijalarora/Desktop/ImmiCan---IOS-Project%20(Updated%20Page%20Control)/ImmiCan/JobApplicationDetailedPage/detailedJobPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65625E38-9735-4CD4-A3BD-B0F41F60461C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/jobPage/jobPageInitialViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71B10912-4C8C-4349-844F-1BCA1B5F7676"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/jobPage/jobPageInitialViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "jobTableView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45833B3A-A46D-41E3-81F3-9914C33E2BCA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/jobPage/jobPageInitialViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71032CB7-B61B-43A7-96AB-F68CF98835E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/ApplyingToJob/OpeningDocumentPicker.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E87ECB2D-6708-427D-BEF4-373FD3B3CC94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/ApplyingToJob/ApplyingToJobViewElements.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "uploadResumeButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "178ECE41-1E72-4619-8170-005E3980378B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImmiCan/ApplyingToJob/ApplyingToJobViewElements.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "uploadResumeButton"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

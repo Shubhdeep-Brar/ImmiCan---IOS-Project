@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8jJ-cr-6ZH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RBz-bQ-CJD">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="VAb-0N-IQH">
-                                <rect key="frame" x="6" y="116" width="378" height="656.66666666666663"/>
+                                <rect key="frame" x="6" y="116" width="378" height="643.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="obr-7S-5y7">
                                         <rect key="frame" x="16" y="0.0" width="346" height="307.66666666666669"/>
@@ -65,10 +65,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="108" translatesAutoresizingMaskIntoConstraints="NO" id="Efg-z6-C4i">
-                                        <rect key="frame" x="18.666666666666657" y="391.66666666666674" width="341" height="265"/>
+                                        <rect key="frame" x="18.666666666666657" y="391.66666666666674" width="341" height="252"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WDz-qf-NXZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="341" height="117.66666666666667"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSw-Sq-x8z">
                                                         <rect key="frame" x="0.0" y="0.0" width="341" height="55"/>
@@ -93,7 +93,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjM-98-XIX">
-                                                        <rect key="frame" x="0.0" y="74.999999999999943" width="341" height="55.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="74.999999999999943" width="341" height="42.666666666666657"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="341" id="9Zd-RC-8zH"/>
                                                             <constraint firstAttribute="height" constant="55" id="qDF-1i-yBy"/>
@@ -116,7 +116,7 @@
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNK-0C-nak">
-                                                <rect key="frame" x="98" y="238.66666666666669" width="145" height="26.333333333333314"/>
+                                                <rect key="frame" x="98" y="225.66666666666669" width="145" height="26.333333333333343"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="145" id="cgO-C8-FOn"/>
                                                     <constraint firstAttribute="height" constant="26.329999999999998" id="enV-tr-zmk"/>
@@ -474,7 +474,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-8" y="341" width="392" height="162"/>
+                                <rect key="frame" x="-19" y="341" width="395" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -516,7 +516,7 @@
         <scene sceneID="CBe-wL-z1x">
             <objects>
                 <viewController id="4gD-8u-9hh" customClass="createAccountViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="G8M-jV-poO">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="G8M-jV-poO">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -870,6 +870,105 @@ the following list</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKm-34-5nU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8418" y="673"/>
+        </scene>
+        <!--Job Page Initial View Controller-->
+        <scene sceneID="E2D-W1-hCh">
+            <objects>
+                <viewController id="wiR-LO-JWR" customClass="jobPageInitialViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w0w-7W-6Xr">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7GY-oM-VVa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iEM-o3-UnL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kYn-l4-Yad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10238.461538461539" y="674.64454976303318"/>
+        </scene>
+        <!--Detailed Job Page View Controller-->
+        <scene sceneID="o2C-oX-9Tz">
+            <objects>
+                <viewController storyboardIdentifier="detailedJobPage" id="vmA-lQ-dfB" customClass="detailedJobPageViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TxC-Dc-BK6">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ahG-fj-v5y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdq-ZQ-Mk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10946" y="675"/>
+        </scene>
+        <!--Applying To Job View Elements-->
+        <scene sceneID="zk6-uH-fbi">
+            <objects>
+                <viewController storyboardIdentifier="updateddetailView" id="uuc-xn-8Za" customClass="ApplyingToJobViewElements" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LCA-hI-YEH">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="F02-aB-QFa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LF9-Es-d7V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11694" y="677"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="lMp-Kz-ppo">
+            <objects>
+                <viewController id="Gaq-sU-j2N" customClass="ProfileViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0XF-S2-ARJ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zbA-Mq-JWV">
+                                <rect key="frame" x="129" y="100" width="132" height="104"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Rxw-Gx-Bbz">
+                                <rect key="frame" x="29" y="254" width="332" height="465"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Leu-9p-bZK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zbA-Mq-JWV" firstAttribute="leading" secondItem="Leu-9p-bZK" secondAttribute="leading" constant="129" id="1wG-W4-LVv"/>
+                            <constraint firstAttribute="trailing" secondItem="zbA-Mq-JWV" secondAttribute="trailing" constant="129" id="BhA-4t-mFq"/>
+                            <constraint firstItem="Rxw-Gx-Bbz" firstAttribute="top" secondItem="zbA-Mq-JWV" secondAttribute="bottom" constant="50" id="FGN-QB-jkE"/>
+                            <constraint firstAttribute="trailing" secondItem="Rxw-Gx-Bbz" secondAttribute="trailing" constant="29" id="O0e-X1-It3"/>
+                            <constraint firstAttribute="bottom" secondItem="Rxw-Gx-Bbz" secondAttribute="bottom" constant="125" id="O7Y-de-gDJ"/>
+                            <constraint firstAttribute="bottom" secondItem="zbA-Mq-JWV" secondAttribute="bottom" constant="640" id="Ujk-85-Inc"/>
+                            <constraint firstItem="Rxw-Gx-Bbz" firstAttribute="leading" secondItem="0XF-S2-ARJ" secondAttribute="leading" constant="29" id="YPA-rh-3kR"/>
+                            <constraint firstItem="zbA-Mq-JWV" firstAttribute="top" secondItem="0XF-S2-ARJ" secondAttribute="top" constant="100" id="r1F-vy-ZSI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="profileImageHolder" destination="zbA-Mq-JWV" id="2Vf-JH-UK4"/>
+                        <outlet property="tableView" destination="Rxw-Gx-Bbz" id="WPF-ck-m1L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q1B-r6-pj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11710.76923076923" y="1390.5213270142178"/>
+        </scene>
+        <!--Final Job Submission-->
+        <scene sceneID="H0S-uX-iDP">
+            <objects>
+                <viewController storyboardIdentifier="finalJobPage" id="aRH-1F-5HX" customClass="FinalJobSubmission" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kbf-7b-vyV">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qzs-tu-cyg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jaK-GY-E5s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12483" y="686"/>
         </scene>
         <!--Tutorial Handler-->
         <scene sceneID="gPj-Zq-xfj">
@@ -1464,6 +1563,24 @@ get more information on sin.
             </objects>
             <point key="canvasLocation" x="7650.7692307692305" y="2877.7251184834122"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="W2Z-uK-gPG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RBz-bQ-CJD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0WH-hh-Seb">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wiR-LO-JWR" kind="relationship" relationship="rootViewController" id="l7A-xP-G04"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yh6-wQ-9df" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9309.2307692307695" y="674.64454976303318"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Banking" width="1920" height="1920"/>
@@ -1487,6 +1604,9 @@ get more information on sin.
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -1498,6 +1618,9 @@ get more information on sin.
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
