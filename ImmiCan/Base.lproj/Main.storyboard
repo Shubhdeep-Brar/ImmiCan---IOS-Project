@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8jJ-cr-6ZH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Jd-kr-rkM">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -71,7 +71,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSw-Sq-x8z">
-                                                        <rect key="frame" x="0.0" y="0.0" width="341" height="55"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="341" height="55.666666666666664"/>
                                                         <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="341" id="bI1-lR-qjX"/>
@@ -93,7 +93,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjM-98-XIX">
-                                                        <rect key="frame" x="0.0" y="74.999999999999943" width="341" height="55.666666666666657"/>
+                                                        <rect key="frame" x="0.0" y="75.666666666666686" width="341" height="55"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="341" id="9Zd-RC-8zH"/>
                                                             <constraint firstAttribute="height" constant="55" id="qDF-1i-yBy"/>
@@ -465,6 +465,21 @@
             </objects>
             <point key="canvasLocation" x="4512.3076923076924" y="-49.052132701421797"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="RLV-tD-BIk">
+            <objects>
+                <viewController storyboardIdentifier="ChatVC" id="mVW-4v-2XS" customClass="ChatViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TXu-VZ-UyP">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D8Q-DB-j0h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Qh-pK-eZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5688" y="-273"/>
+        </scene>
         <!--Select Province Picker-->
         <scene sceneID="Ihe-uS-hiG">
             <objects>
@@ -474,7 +489,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-8" y="341" width="392" height="162"/>
+                                <rect key="frame" x="-8" y="341" width="389" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1423,6 +1438,37 @@ get more information on sin.
             </objects>
             <point key="canvasLocation" x="6716.9230769230771" y="2877.7251184834122"/>
         </scene>
+        <!--Housing View Controller-->
+        <scene sceneID="xZP-Jm-vtq">
+            <objects>
+                <viewController id="Nag-Ih-IPu" customClass="HousingViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rZt-pd-Lvo">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Kqs-GE-Bsc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h19-qX-BkK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kuy-VT-KoR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7290.7692307692305" y="3591.4691943127959"/>
+        </scene>
+        <!--Image Cell-->
+        <scene sceneID="FBU-Mc-lLS">
+            <objects>
+                <viewController storyboardIdentifier="ImageCell" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OQ8-hu-h0g" customClass="ImageCell" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fjm-c3-WVv">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nYc-2o-L4V"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBb-7q-XwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8091" y="3591"/>
+        </scene>
         <!--Profile-->
         <scene sceneID="zIR-DC-6u4">
             <objects>
@@ -1464,6 +1510,39 @@ get more information on sin.
             </objects>
             <point key="canvasLocation" x="7650.7692307692305" y="2877.7251184834122"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cKp-Y4-wrJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Jd-kr-rkM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y1E-Cm-548">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Nag-Ih-IPu" kind="relationship" relationship="rootViewController" id="Mec-mc-PNQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8XO-y1-qsX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6240" y="3591"/>
+        </scene>
+        <!--Tvc-->
+        <scene sceneID="NN7-Ng-Mqk">
+            <objects>
+                <viewController storyboardIdentifier="tvc" id="KqO-6e-cBi" customClass="tvc" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z3W-mr-mZy">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7Fx-NJ-DjG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zaL-Qm-1Re" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9151" y="673"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Banking" width="1920" height="1920"/>
@@ -1487,6 +1566,9 @@ get more information on sin.
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -1498,6 +1580,9 @@ get more information on sin.
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
