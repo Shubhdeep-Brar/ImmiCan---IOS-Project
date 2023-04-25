@@ -92,7 +92,11 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
    
 }
 
+<<<<<<< HEAD
+//<<<<<<< HEAD
+=======
 
+>>>>>>> feature/MarketPlace
 //import Foundation
 //import UIKit
 //
@@ -183,8 +187,16 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
 //        return true
 //    }
 //}
+<<<<<<< HEAD
+//=======
+//COMMENT
+//comment
+//Final merge
+//>>>>>>> parent of b68e042 (Status Drop Down Resolved)
+=======
 
 //COMMENT
 //comment
 //Final merge
 
+>>>>>>> feature/MarketPlace

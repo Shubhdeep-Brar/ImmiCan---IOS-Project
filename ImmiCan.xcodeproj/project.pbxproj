@@ -36,9 +36,21 @@
 		04BE9CE629567FEC0079FBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE429567FEC0079FBA3 /* LaunchScreen.storyboard */; };
 		04DD743729E7C1AC0044CF13 /* ApplyingToJobViewElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */; };
 		7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */; };
+		7A51291C29F380EB001D532C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291B29F380EB001D532C /* MenuVC.swift */; };
+		7A51291E29F3A326001D532C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291D29F3A326001D532C /* ChatVC.swift */; };
+		7A51292029F3AF97001D532C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291F29F3AF97001D532C /* Message.swift */; };
 		7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */; };
+		7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */; };
+		7A9CAC3029DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */; };
+		7A9CAC3229DE796100643E9F /* MarketPlaceTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC3129DE796100643E9F /* MarketPlaceTopView.swift */; };
+		7A9CAC3429DE7A9600643E9F /* MarketPlaceCVData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC3329DE7A9600643E9F /* MarketPlaceCVData.swift */; };
+		7A9CAC3629DE7E0500643E9F /* MarketPlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC3529DE7E0500643E9F /* MarketPlaceCell.swift */; };
+		7A9CAC3929DE886200643E9F /* MarketPlaceDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9CAC3829DE886200643E9F /* MarketPlaceDataProvider.swift */; };
 		7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8C9692992068C00C751C4 /* PageViewController.swift */; };
 		7AB8C96C2992093700C751C4 /* tutorialHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8C96B2992093700C751C4 /* tutorialHandler.swift */; };
+		7AF42A5629EA729900E3CA31 /* ListingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42A5529EA729900E3CA31 /* ListingData.swift */; };
+		7AF99B9629E6978A00B7692A /* CreateListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF99B9529E6978A00B7692A /* CreateListingVC.swift */; };
+		7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF99B9729E922B200B7692A /* AddImageCell.swift */; };
 		7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */; };
 		7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */; };
 		FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */; };
@@ -81,9 +93,21 @@
 		04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingToJobViewElements.swift; sourceTree = "<group>"; };
 		04DD743B29ED0A0E0044CF13 /* ImmiCan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImmiCan.entitlements; sourceTree = "<group>"; };
 		7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCareViewController.swift; sourceTree = "<group>"; };
+		7A51291B29F380EB001D532C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		7A51291D29F3A326001D532C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		7A51291F29F3AF97001D532C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProvincePicker.swift; sourceTree = "<group>"; };
+		7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceVC.swift; sourceTree = "<group>"; };
+		7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceHeaderReusableView.swift; sourceTree = "<group>"; };
+		7A9CAC3129DE796100643E9F /* MarketPlaceTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceTopView.swift; sourceTree = "<group>"; };
+		7A9CAC3329DE7A9600643E9F /* MarketPlaceCVData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceCVData.swift; sourceTree = "<group>"; };
+		7A9CAC3529DE7E0500643E9F /* MarketPlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceCell.swift; sourceTree = "<group>"; };
+		7A9CAC3829DE886200643E9F /* MarketPlaceDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceDataProvider.swift; sourceTree = "<group>"; };
 		7AB8C9692992068C00C751C4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		7AB8C96B2992093700C751C4 /* tutorialHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialHandler.swift; sourceTree = "<group>"; };
+		7AF42A5529EA729900E3CA31 /* ListingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingData.swift; sourceTree = "<group>"; };
+		7AF99B9529E6978A00B7692A /* CreateListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListingVC.swift; sourceTree = "<group>"; };
+		7AF99B9729E922B200B7692A /* AddImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCell.swift; sourceTree = "<group>"; };
 		7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProfileVC.swift; sourceTree = "<group>"; };
 		FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizedViewForTutorials.swift; sourceTree = "<group>"; };
@@ -141,6 +165,10 @@
 			isa = PBXGroup;
 			children = (
 				04AEF75D29A7278000076378 /* ImmigrationDocumentData.swift */,
+				7A9CAC3129DE796100643E9F /* MarketPlaceTopView.swift */,
+				7A9CAC3329DE7A9600643E9F /* MarketPlaceCVData.swift */,
+				7A9CAC3829DE886200643E9F /* MarketPlaceDataProvider.swift */,
+				7AF42A5529EA729900E3CA31 /* ListingData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -170,6 +198,7 @@
 				04DD743329E7BE540044CF13 /* ApplyingToJob */,
 				0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */,
 				0425855C29C3F8320084E657 /* jobPage */,
+				7A9CAC2E29DBC9EC00643E9F /* MarketPlace */,
 				04AEF75C29A7276200076378 /* Data */,
 				FB721F9D29BAF09C00EEA377 /* Friends */,
 				FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */,
@@ -192,6 +221,12 @@
 				044ABC7429AEF2190070B334 /* DatePicker.swift */,
 				7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */,
 				7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */,
+				7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */,
+				7AF99B9529E6978A00B7692A /* CreateListingVC.swift */,
+				7AF99B9729E922B200B7692A /* AddImageCell.swift */,
+				7A51291B29F380EB001D532C /* MenuVC.swift */,
+				7A51291D29F3A326001D532C /* ChatVC.swift */,
+				7A51291F29F3AF97001D532C /* Message.swift */,
 			);
 			path = ImmiCan;
 			sourceTree = "<group>";
@@ -203,6 +238,15 @@
 				044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */,
 			);
 			path = ApplyingToJob;
+			sourceTree = "<group>";
+		};
+		7A9CAC2E29DBC9EC00643E9F /* MarketPlace */ = {
+			isa = PBXGroup;
+			children = (
+				7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */,
+				7A9CAC3529DE7E0500643E9F /* MarketPlaceCell.swift */,
+			);
+			path = MarketPlace;
 			sourceTree = "<group>";
 		};
 		FB721F9D29BAF09C00EEA377 /* Friends */ = {
@@ -299,20 +343,31 @@
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
 				047F55C229C55F5200CAD8B7 /* jobPosting.swift in Sources */,
 				047F55C629C652B200CAD8B7 /* JobCell.swift in Sources */,
+				7A9CAC3229DE796100643E9F /* MarketPlaceTopView.swift in Sources */,
 				044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */,
+				7A9CAC3429DE7A9600643E9F /* MarketPlaceCVData.swift in Sources */,
+				7AF42A5629EA729900E3CA31 /* ListingData.swift in Sources */,
+				7A9CAC3629DE7E0500643E9F /* MarketPlaceCell.swift in Sources */,
 				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
 				04A9F9C829DE55FC005F387A /* SingleJobPage.swift in Sources */,
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
 				04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */,
+				7A51292029F3AF97001D532C /* Message.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
+				7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */,
+				7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
 				FB721FA329BAF21200EEA377 /* User.swift in Sources */,
 				044B1C9829F26824007FB9D0 /* FinalJobSubmission.swift in Sources */,
 				FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */,
+				7A51291E29F3A326001D532C /* ChatVC.swift in Sources */,
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,
 				047F55C829C6E55C00CAD8B7 /* NameAndAvatarData.swift in Sources */,
 				0460CA9F29DBB16B006BB93B /* JobSpecifications.swift in Sources */,
+				7AF99B9629E6978A00B7692A /* CreateListingVC.swift in Sources */,
+				7A9CAC3029DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift in Sources */,
+				7A9CAC3929DE886200643E9F /* MarketPlaceDataProvider.swift in Sources */,
 				04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */,
 				7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */,
 				0460CAA129DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift in Sources */,
@@ -327,6 +382,7 @@
 				047F55C029C54C3B00CAD8B7 /* jobPageInitialViewController.swift in Sources */,
 				044B1C9629F24DE1007FB9D0 /* JobApplicationStructure.swift in Sources */,
 				0425855E29C3F8500084E657 /* IntroductoryCell.swift in Sources */,
+				7A51291C29F380EB001D532C /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

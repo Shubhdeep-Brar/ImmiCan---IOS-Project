@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+
 class FriendsViewController: UIViewController {
    
     let data = DataProvider.makeMockData()
