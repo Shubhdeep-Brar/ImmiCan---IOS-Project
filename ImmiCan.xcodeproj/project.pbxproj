@@ -74,6 +74,8 @@
 		FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */; };
 		FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */; };
 		FB9A4A8D29EF696E004E76A5 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A8C29EF696E004E76A5 /* MessageKit */; };
+		FBEE0FFC29F89F4200581935 /* SellHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFB29F89F4200581935 /* SellHouse.swift */; };
+		FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */; };
 		FBF25F1529DBB82000E111B9 /* HousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1229DBB82000E111B9 /* HousingCell.swift */; };
 		FBF25F1729DBB82000E111B9 /* IntroductoryHousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1429DBB82000E111B9 /* IntroductoryHousingCell.swift */; };
 		FBF25F1929DBB85A00E111B9 /* HousingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1829DBB85A00E111B9 /* HousingData.swift */; };
@@ -143,6 +145,8 @@
 		FB9A4A8429EF5BDC004E76A5 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		FBEE0FFB29F89F4200581935 /* SellHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellHouse.swift; sourceTree = "<group>"; };
+		FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImagesHousing.swift; sourceTree = "<group>"; };
 		FBF25F1229DBB82000E111B9 /* HousingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingCell.swift; sourceTree = "<group>"; };
 		FBF25F1429DBB82000E111B9 /* IntroductoryHousingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductoryHousingCell.swift; sourceTree = "<group>"; };
 		FBF25F1829DBB85A00E111B9 /* HousingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingData.swift; sourceTree = "<group>"; };
@@ -220,6 +224,7 @@
 		04BE9CCD29567FEB0079FBA3 = {
 			isa = PBXGroup;
 			children = (
+				FBEE0FFA29F89F1000581935 /* SellHousing */,
 				FB0648FC29EE103E00F5CA21 /* Chat  */,
 				FBF25F1E29DBB8DB00E111B9 /* DetailedHousingCell */,
 				04BE9CD829567FEB0079FBA3 /* ImmiCan */,
@@ -324,6 +329,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEE0FFA29F89F1000581935 /* SellHousing */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE0FFB29F89F4200581935 /* SellHouse.swift */,
+				FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */,
+			);
+			path = SellHousing;
 			sourceTree = "<group>";
 		};
 		FBF25F1129DBB82000E111B9 /* Cell */ = {
@@ -449,6 +463,7 @@
 				7A9CAC3229DE796100643E9F /* MarketPlaceTopView.swift in Sources */,
 				FB06490029EE118600F5CA21 /* ImageCell.swift in Sources */,
 				044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */,
+				FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */,
 				7A9CAC3429DE7A9600643E9F /* MarketPlaceCVData.swift in Sources */,
 				7AF42A5629EA729900E3CA31 /* ListingData.swift in Sources */,
 				7A9CAC3629DE7E0500643E9F /* MarketPlaceCell.swift in Sources */,
@@ -469,6 +484,7 @@
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
 				FB721FA329BAF21200EEA377 /* User.swift in Sources */,
 				044B1C9829F26824007FB9D0 /* FinalJobSubmission.swift in Sources */,
+				FBEE0FFC29F89F4200581935 /* SellHouse.swift in Sources */,
 				FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */,
 				7A51291E29F3A326001D532C /* ChatVC.swift in Sources */,
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,

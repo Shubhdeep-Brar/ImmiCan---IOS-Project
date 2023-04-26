@@ -13,6 +13,10 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
     var pages = [UIViewController]()
     
     
+   
+   
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -69,27 +73,33 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
     }
     
     override func viewDidLayoutSubviews() {
-            super.viewDidLayoutSubviews()
-
+        super.viewDidLayoutSubviews()
+        
         var subViews: NSArray = view.subviews as NSArray
-            var scrollView: UIScrollView? = nil
-            var pageControl: UIPageControl? = nil
-
-            for view in subViews {
-                if (view as AnyObject).isKind(of: UIScrollView.self) {
-                    scrollView = view as? UIScrollView
-                }
-                else if (view as AnyObject).isKind(of: UIPageControl.self) {
-                    pageControl = view as? UIPageControl
-                }
+        var scrollView: UIScrollView? = nil
+        var pageControl: UIPageControl? = nil
+        
+        for view in subViews {
+            if (view as AnyObject).isKind(of: UIScrollView.self) {
+                scrollView = view as? UIScrollView
             }
-
-            if (scrollView != nil && pageControl != nil) {
-                scrollView?.frame = view.bounds
-                view.bringSubviewToFront(pageControl!)
+            else if (view as AnyObject).isKind(of: UIPageControl.self) {
+                pageControl = view as? UIPageControl
             }
         }
-   
+        
+        if (scrollView != nil && pageControl != nil) {
+            scrollView?.frame = view.bounds
+            view.bringSubviewToFront(pageControl!)
+        }
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "skipSegue" {
+            let destinationVC = segue.destination as! MenuVC
+            // Pass any necessary data to the destination view controller
+        }
+        
+    }
 }
 
 //<<<<<<< HEAD

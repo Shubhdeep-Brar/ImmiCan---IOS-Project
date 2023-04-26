@@ -646,7 +646,6 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="signUpTapped:" destination="4gD-8u-9hh" eventType="touchUpInside" id="GfI-kh-iqS"/>
-                                                    <segue destination="cfh-c4-3Fd" kind="show" id="bPO-3b-b3F"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Immi Can" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28s-PH-cH5">
@@ -689,7 +688,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45W-Dp-uL2" userLabel="Take a quick welcome  tour to know about  the documents you would need as a new immigrant.">
-                                <rect key="frame" x="16" y="524" width="351" height="86"/>
+                                <rect key="frame" x="16" y="573" width="351" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Take a quick welcome  tour to know about 
 the documents you would need as a new immigrant.</string>
@@ -701,55 +700,25 @@ the documents you would need as a new immigrant.</string>
                                 <rect key="frame" x="31" y="182.00000000000003" width="328" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf9-t4-m3E">
-                                <rect key="frame" x="82" y="455" width="226" height="32.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" fixedFrame="YES" text="to the country of your dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnA-rQ-HCg">
-                                <rect key="frame" x="82" y="495.33333333333331" width="226" height="20.333333333333336"/>
+                                <rect key="frame" x="78" y="515" width="226" height="20.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qF-oX-wOb">
-                                <rect key="frame" x="31" y="680" width="341" height="55"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="341" id="d1g-KC-tsu"/>
-                                    <constraint firstAttribute="height" constant="55" id="tQu-nn-mfs"/>
-                                </constraints>
-                                <color key="tintColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <size key="titleShadowOffset" width="0.0" height="4"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Select Province">
-                                    <fontDescription key="titleFontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="13"/>
-                                </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="29"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="selectProvinceTapped:" destination="bGy-I1-VhZ" eventType="touchUpInside" id="s9g-tF-s6h"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf9-t4-m3E">
+                                <rect key="frame" x="82" y="474" width="226" height="32.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OZ3-ec-DkA"/>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="5qF-oX-wOb" firstAttribute="top" secondItem="1Pf-Y0-Dzs" secondAttribute="top" constant="680" id="MgS-Ez-wM2"/>
-                            <constraint firstItem="5qF-oX-wOb" firstAttribute="leading" secondItem="1Pf-Y0-Dzs" secondAttribute="leading" constant="31" id="Qpq-jK-wSY"/>
-                            <constraint firstAttribute="trailing" secondItem="5qF-oX-wOb" secondAttribute="trailing" constant="18" id="Zbt-Th-O54"/>
-                            <constraint firstAttribute="bottom" secondItem="5qF-oX-wOb" secondAttribute="bottom" constant="109" id="glo-3I-5Zd"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="t1Q-0f-pJf"/>
-                    <connections>
-                        <outlet property="chooseYourProvince" destination="5qF-oX-wOb" id="VkY-aA-ExH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qf6-fa-pD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -759,7 +728,20 @@ the documents you would need as a new immigrant.</string>
         <scene sceneID="q0h-HL-dhx">
             <objects>
                 <pageViewController storyboardIdentifier="PageView" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="VcF-wp-TJQ" customClass="PageViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="rgE-9D-cgg"/>
+                    <navigationItem key="navigationItem" id="rgE-9D-cgg">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="tMP-kz-Cx0">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="4w3-Oz-n3w">
+                                <rect key="frame" x="288" y="4.6666666666666679" width="86" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skip"/>
+                            </button>
+                            <connections>
+                                <action selector="skipButton:" destination="VcF-wp-TJQ" id="FAU-KP-JdV"/>
+                                <segue destination="vJw-Cr-7Kl" kind="show" identifier="skipSegue" id="dym-P2-Viw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEt-yV-Q98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationItem id="qf4-ni-9s2"/>
@@ -1431,6 +1413,7 @@ get more information on sin.
         <scene sceneID="LAt-rn-O7v">
             <objects>
                 <tabBarController id="vJw-Cr-7Kl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="oTp-Qa-wBF"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tQI-Cy-rFa">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -17,16 +17,16 @@ class tutorialHandler: UIViewController {
             super.viewDidLoad()
         
     
-    chooseYourProvince.layer.masksToBounds = false
+    chooseYourProvince?.layer.masksToBounds = false
 
-        chooseYourProvince.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
-        chooseYourProvince.layer.shadowOffset = CGSize(width: 0.0, height: 4.0)
-        chooseYourProvince.layer.shadowOpacity = 1
-        chooseYourProvince.layer.shadowRadius = 4
-        chooseYourProvince.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
-        chooseYourProvince.layer.borderColor = CGColor(red: 0, green: 0, blue: 0, alpha: 1)
-        chooseYourProvince.layer.borderWidth = 0.5
-            chooseYourProvince.setTitle("Select Province", for: .normal)
+        chooseYourProvince?.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+        chooseYourProvince?.layer.shadowOffset = CGSize(width: 0.0, height: 4.0)
+        chooseYourProvince?.layer.shadowOpacity = 1
+        chooseYourProvince?.layer.shadowRadius = 4
+        chooseYourProvince?.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+        chooseYourProvince?.layer.borderColor = CGColor(red: 0, green: 0, blue: 0, alpha: 1)
+        chooseYourProvince?.layer.borderWidth = 0.5
+            chooseYourProvince?.setTitle("Select Province", for: .normal)
     
     }
     
