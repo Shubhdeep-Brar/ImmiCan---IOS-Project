@@ -12,8 +12,9 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
     
     @IBOutlet weak var tourStarted: UIButton!
     
-    
     @IBOutlet weak var pickerView: UIPickerView!
+    
+    var chosenProvince: String = " "
     
     var pickerData: [String] = [String]()
     override func viewDidLoad() {
@@ -33,6 +34,8 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
         self.pickerView.delegate = self
         
         self.pickerView.dataSource = self
+       
+        
         
     }
         
@@ -53,16 +56,18 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
           
           // The data to return fopr the row and component (column) that's being passed in
           func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+              let selectedProvince = pickerView.selectedRow(inComponent: component)
+              chosenProvince = pickerData[selectedProvince]
               return pickerData[row]
           }
     
-    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-        
-            // This method is triggered whenever the user makes a change to the picker selection.
-            // The parameter named row and component represents what was selected.
-        }
-    
+//    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+//
+//
+//            // This method is triggered whenever the user makes a change to the picker selection.
+//            // The parameter named row and component represents what was selected.
+//        }
+//
     
     @IBAction func tourStartedByUser(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -74,4 +79,5 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
     
     //main reset to working commit
     
+
 
