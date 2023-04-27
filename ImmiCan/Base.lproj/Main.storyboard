@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cd6-mp-2y5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WZm-Ju-olu">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -490,7 +490,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-8" y="341" width="389" height="162"/>
+                                <rect key="frame" x="-9" y="341" width="389" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -722,23 +722,16 @@ the documents you would need as a new immigrant.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qf6-fa-pD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4570.7692307692305" y="672.51184834123217"/>
+            <point key="canvasLocation" x="5500" y="672.51184834123217"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="q0h-HL-dhx">
             <objects>
                 <pageViewController storyboardIdentifier="PageView" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="VcF-wp-TJQ" customClass="PageViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="rgE-9D-cgg">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="tMP-kz-Cx0">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="4w3-Oz-n3w">
-                                <rect key="frame" x="288" y="4.6666666666666679" width="86" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Skip"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="Skip" id="v0g-eL-woD">
                             <connections>
-                                <action selector="skipButton:" destination="VcF-wp-TJQ" id="FAU-KP-JdV"/>
-                                <segue destination="vJw-Cr-7Kl" kind="show" identifier="skipSegue" id="dym-P2-Viw"/>
+                                <segue destination="vJw-Cr-7Kl" kind="show" id="lcu-Ja-jnF"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -746,7 +739,7 @@ the documents you would need as a new immigrant.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEt-yV-Q98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationItem id="qf4-ni-9s2"/>
             </objects>
-            <point key="canvasLocation" x="5286" y="673"/>
+            <point key="canvasLocation" x="6213.8461538461534" y="672.51184834123217"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5mC-eN-Gaa">
@@ -849,7 +842,7 @@ the documents you would need as a new immigrant.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95t-Ex-oq5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6973.8461538461534" y="676.77725118483409"/>
+            <point key="canvasLocation" x="7903.0769230769229" y="676.77725118483409"/>
         </scene>
         <!--Selecting Document-->
         <scene sceneID="cLi-GQ-QmP">
@@ -898,7 +891,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Q6-hw-oWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7689.2307692307686" y="676.77725118483409"/>
+            <point key="canvasLocation" x="8618.461538461539" y="676.77725118483409"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YoC-uv-ns6">
@@ -913,7 +906,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKm-34-5nU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8418" y="673"/>
+            <point key="canvasLocation" x="9346.1538461538457" y="672.51184834123217"/>
         </scene>
         <!--Job Page Initial View Controller-->
         <scene sceneID="E2D-W1-hCh">
@@ -929,7 +922,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYn-l4-Yad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10238.461538461539" y="674.64454976303318"/>
+            <point key="canvasLocation" x="11167.692307692307" y="674.64454976303318"/>
         </scene>
         <!--Detailed Job Page View Controller-->
         <scene sceneID="o2C-oX-9Tz">
@@ -944,7 +937,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdq-ZQ-Mk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10946" y="675"/>
+            <point key="canvasLocation" x="11873.846153846154" y="674.64454976303318"/>
         </scene>
         <!--Applying To Job View Elements-->
         <scene sceneID="zk6-uH-fbi">
@@ -959,7 +952,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LF9-Es-d7V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11694" y="677"/>
+            <point key="canvasLocation" x="12623.076923076922" y="676.77725118483409"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="lMp-Kz-ppo">
@@ -1012,7 +1005,22 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jaK-GY-E5s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12483" y="686"/>
+            <point key="canvasLocation" x="13410.76923076923" y="685.30805687203792"/>
+        </scene>
+        <!--Job First Page-->
+        <scene sceneID="0n1-ha-3Di">
+            <objects>
+                <viewController id="WZm-Ju-olu" customClass="JobFirstPage" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zLM-c4-gjk">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GLh-r9-bYK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wTt-pI-Mmx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14235" y="686"/>
         </scene>
         <!--Tutorial Handler-->
         <scene sceneID="gPj-Zq-xfj">
@@ -1407,12 +1415,12 @@ get more information on sin.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1SK-FI-493" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6044.6153846153848" y="676.77725118483409"/>
+            <point key="canvasLocation" x="6973.8461538461534" y="676.77725118483409"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="LAt-rn-O7v">
             <objects>
-                <tabBarController id="vJw-Cr-7Kl" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" id="vJw-Cr-7Kl" customClass="TabBarController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="oTp-Qa-wBF"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tQI-Cy-rFa">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
@@ -1661,7 +1669,7 @@ get more information on sin.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yh6-wQ-9df" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9309.2307692307695" y="674.64454976303318"/>
+            <point key="canvasLocation" x="10238.461538461539" y="674.64454976303318"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cKp-Y4-wrJ">
@@ -1694,7 +1702,7 @@ get more information on sin.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zaL-Qm-1Re" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9151" y="673"/>
+            <point key="canvasLocation" x="10080" y="672.51184834123217"/>
         </scene>
     </scenes>
     <resources>

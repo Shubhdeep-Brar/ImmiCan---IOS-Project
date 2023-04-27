@@ -11,9 +11,20 @@ import UIKit
 class PageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     
     var pages = [UIViewController]()
+    var tabBarPage = TabBarController()
     
     
-   
+    @IBAction func pressedSkipButton(_ sender: UIBarButtonItem) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+       // self.navigationController?.pushViewController(vc, animated: true)
+       // self.navigationController?.push(vc, animated: true)
+       // self.tabBarControl
+        //self.present(TabBarController(), animated: true, completion: nil)
+        self.present(TabBarController(), animated: true)
+        
+    }
+    
    
     
     
@@ -93,13 +104,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
             view.bringSubviewToFront(pageControl!)
         }
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "skipSegue" {
-            let destinationVC = segue.destination as! MenuVC
-            // Pass any necessary data to the destination view controller
-        }
-        
-    }
+    
 }
 
 //<<<<<<< HEAD

@@ -13,6 +13,9 @@
 		044B1C9629F24DE1007FB9D0 /* JobApplicationStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */; };
 		044B1C9829F26824007FB9D0 /* FinalJobSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B1C9729F26824007FB9D0 /* FinalJobSubmission.swift */; };
 		044B1C9F29F3982F007FB9D0 /* ProfileData in Resources */ = {isa = PBXBuildFile; fileRef = 044B1C9E29F3982F007FB9D0 /* ProfileData */; };
+		0458E3EC29F8E5C5001CC83B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3EB29F8E5C5001CC83B /* TabBarController.swift */; };
+		0458E3EF29F9F193001CC83B /* CreateAJobPostStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */; };
+		0458E3F229FA0437001CC83B /* JobFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3F129FA0437001CC83B /* JobFirstPage.swift */; };
 		0460CA9D29D67118006BB93B /* detailedJobPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460CA9C29D67118006BB93B /* detailedJobPageViewController.swift */; };
 		0460CA9F29DBB16B006BB93B /* JobSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460CA9E29DBB16B006BB93B /* JobSpecifications.swift */; };
 		0460CAA129DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460CAA029DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift */; };
@@ -90,6 +93,9 @@
 		044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationStructure.swift; sourceTree = "<group>"; };
 		044B1C9729F26824007FB9D0 /* FinalJobSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalJobSubmission.swift; sourceTree = "<group>"; };
 		044B1C9E29F3982F007FB9D0 /* ProfileData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ProfileData; sourceTree = "<group>"; };
+		0458E3EB29F8E5C5001CC83B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAJobPostStructure.swift; sourceTree = "<group>"; };
+		0458E3F129FA0437001CC83B /* JobFirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFirstPage.swift; sourceTree = "<group>"; };
 		0460CA9C29D67118006BB93B /* detailedJobPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailedJobPageViewController.swift; sourceTree = "<group>"; };
 		0460CA9E29DBB16B006BB93B /* JobSpecifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSpecifications.swift; sourceTree = "<group>"; };
 		0460CAA029DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedJobDiscriptionDataProvider.swift; sourceTree = "<group>"; };
@@ -196,6 +202,15 @@
 			path = FinalJobSubmissionPage;
 			sourceTree = "<group>";
 		};
+		0458E3ED29F9F161001CC83B /* CreatingAJobPost */ = {
+			isa = PBXGroup;
+			children = (
+				0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */,
+				0458E3F129FA0437001CC83B /* JobFirstPage.swift */,
+			);
+			path = CreatingAJobPost;
+			sourceTree = "<group>";
+		};
 		0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +239,8 @@
 		04BE9CCD29567FEB0079FBA3 = {
 			isa = PBXGroup;
 			children = (
+				0458E3ED29F9F161001CC83B /* CreatingAJobPost */,
+				0458E3EB29F8E5C5001CC83B /* TabBarController.swift */,
 				FBEE0FFA29F89F1000581935 /* SellHousing */,
 				FB0648FC29EE103E00F5CA21 /* Chat  */,
 				FBF25F1E29DBB8DB00E111B9 /* DetailedHousingCell */,
@@ -455,10 +472,12 @@
 				FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */,
 				049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */,
 				FB09DD7329F3420B00BCB2DD /* AuthenticationViewModel.swift in Sources */,
+				0458E3EF29F9F193001CC83B /* CreateAJobPostStructure.swift in Sources */,
 				FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */,
 				FB9A4A8329EF5BCF004E76A5 /* MessageChat.swift in Sources */,
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
 				047F55C229C55F5200CAD8B7 /* jobPosting.swift in Sources */,
+				0458E3EC29F8E5C5001CC83B /* TabBarController.swift in Sources */,
 				047F55C629C652B200CAD8B7 /* JobCell.swift in Sources */,
 				7A9CAC3229DE796100643E9F /* MarketPlaceTopView.swift in Sources */,
 				FB06490029EE118600F5CA21 /* ImageCell.swift in Sources */,
@@ -499,6 +518,7 @@
 				FBF25F1929DBB85A00E111B9 /* HousingData.swift in Sources */,
 				7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */,
 				0460CA9D29D67118006BB93B /* detailedJobPageViewController.swift in Sources */,
+				0458E3F229FA0437001CC83B /* JobFirstPage.swift in Sources */,
 				047F55C429C567E700CAD8B7 /* JobDataProvider.swift in Sources */,
 				FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */,
 				049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */,
