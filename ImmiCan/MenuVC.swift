@@ -14,14 +14,23 @@ class MenuVC: UIViewController {
         super.viewDidLoad()
     
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    
 
     @IBAction func buttonPressed(_ sender: UIButton!){
         
-        self.navigationController?.pushViewController(MarketPlaceVC(), animated: true)
+        let vc = MarketPlaceVC()
+        vc.modalPresentationStyle = .fullScreen
+        
+        self.navigationController?.pushViewController(vc, animated: true)
 //        let navVC = UINavigationController(rootViewController: MarketPlaceVC())
 //            navVC.modalPresentationStyle = .fullScreen
 //            self.present(navVC, animated: true, completion: nil)
-        
       
     }
 }

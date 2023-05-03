@@ -29,6 +29,11 @@ class MarketPlaceVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        let backButton = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(dismissViewController))
+           navigationItem.leftBarButtonItem = backButton
+
+    
         view.addSubview(collectionView)
         self.navigationController?.navigationBar.barTintColor = .gray
 
@@ -132,5 +137,10 @@ extension MarketPlaceVC {
         return CGSize(width: view.frame.size.width,
         height: 200)
         
+    }
+    
+    
+    @objc func dismissViewController() {
+        dismiss(animated: true, completion: nil)
     }
 }

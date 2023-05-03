@@ -14,7 +14,7 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
     
     @IBOutlet weak var pickerView: UIPickerView!
     
-    var chosenProvince: String = " "
+    var provincialIDVC: tutorialHandler?
     
     var pickerData: [String] = [String]()
     override func viewDidLoad() {
@@ -56,17 +56,18 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
           
           // The data to return fopr the row and component (column) that's being passed in
           func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-              let selectedProvince = pickerView.selectedRow(inComponent: component)
-              chosenProvince = pickerData[selectedProvince]
               return pickerData[row]
           }
     
-//    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-//
-//
-//            // This method is triggered whenever the user makes a change to the picker selection.
-//            // The parameter named row and component represents what was selected.
-//        }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        let selectedValue = pickerView.selectedRow(inComponent: component)
+        var selectedProvince = pickerData[selectedValue]
+        UserDefaults.standard.set(selectedProvince, forKey: "SelectedProvince")
+
+            // This method is triggered whenever the user makes a change to the picker selection.
+            // The parameter named row and component represents what was selected.
+        }
 //
     
     @IBAction func tourStartedByUser(_ sender: UIButton) {
@@ -76,8 +77,7 @@ class SelectProvincePicker: UIViewController, UIPickerViewDelegate, UIPickerView
     }
     
     }
-    
-    //main reset to working commit
+
     
 
 

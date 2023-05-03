@@ -38,6 +38,8 @@
 		04BE9CE329567FEC0079FBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE229567FEC0079FBA3 /* Assets.xcassets */; };
 		04BE9CE629567FEC0079FBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE429567FEC0079FBA3 /* LaunchScreen.storyboard */; };
 		04DD743729E7C1AC0044CF13 /* ApplyingToJobViewElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */; };
+		7A01250229FA4AC60029458A /* provinceSelectedByUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */; };
+		7A01250429FAFB9F0029458A /* MarketPlaceSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */; };
 		7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */; };
 		7A51291C29F380EB001D532C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291B29F380EB001D532C /* MenuVC.swift */; };
 		7A51291E29F3A326001D532C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291D29F3A326001D532C /* ChatVC.swift */; };
@@ -121,6 +123,8 @@
 		04BE9CE729567FEC0079FBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingToJobViewElements.swift; sourceTree = "<group>"; };
 		04DD743B29ED0A0E0044CF13 /* ImmiCan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImmiCan.entitlements; sourceTree = "<group>"; };
+		7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provinceSelectedByUser.swift; sourceTree = "<group>"; };
+		7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceSelectionVC.swift; sourceTree = "<group>"; };
 		7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCareViewController.swift; sourceTree = "<group>"; };
 		7A51291B29F380EB001D532C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		7A51291D29F3A326001D532C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
@@ -239,6 +243,7 @@
 		04BE9CCD29567FEB0079FBA3 = {
 			isa = PBXGroup;
 			children = (
+				7A01250029FA4A480029458A /* PickerSelection */,
 				0458E3ED29F9F161001CC83B /* CreatingAJobPost */,
 				0458E3EB29F8E5C5001CC83B /* TabBarController.swift */,
 				FBEE0FFA29F89F1000581935 /* SellHousing */,
@@ -271,11 +276,11 @@
 				04AEF75C29A7276200076378 /* Data */,
 				FB721F9D29BAF09C00EEA377 /* Friends */,
 				FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */,
+				7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */,
 				04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */,
 				04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */,
 				04BE9CDD29567FEB0079FBA3 /* ViewController.swift */,
 				04BE9CDF29567FEB0079FBA3 /* Main.storyboard */,
-				7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */,
 				7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */,
 				049051B0296A771400FCF4E3 /* createAccountViewController.swift */,
 				049051AE296A752300FCF4E3 /* loginViewController.swift */,
@@ -307,6 +312,15 @@
 				044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */,
 			);
 			path = ApplyingToJob;
+			sourceTree = "<group>";
+		};
+		7A01250029FA4A480029458A /* PickerSelection */ = {
+			isa = PBXGroup;
+			children = (
+				7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */,
+				7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */,
+			);
+			path = PickerSelection;
 			sourceTree = "<group>";
 		};
 		7A9CAC2E29DBC9EC00643E9F /* MarketPlace */ = {
@@ -488,6 +502,7 @@
 				7A9CAC3629DE7E0500643E9F /* MarketPlaceCell.swift in Sources */,
 				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
 				04A9F9C829DE55FC005F387A /* SingleJobPage.swift in Sources */,
+				7A01250429FAFB9F0029458A /* MarketPlaceSelectionVC.swift in Sources */,
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				FBF25F1B29DBB86E00E111B9 /* HouseUser.swift in Sources */,
 				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
@@ -499,6 +514,7 @@
 				7A51292029F3AF97001D532C /* Message.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
 				7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */,
+				7A01250229FA4AC60029458A /* provinceSelectedByUser.swift in Sources */,
 				7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
 				FB721FA329BAF21200EEA377 /* User.swift in Sources */,

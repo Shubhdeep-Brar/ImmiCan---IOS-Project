@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        guard let windowScene = (scene as? UIWindowScene) else { return }
 //        let window = UIWindow(windowScene: windowScene)
 //
-//        let testVC = ImageCell()
+//        let testVC = MarketPlaceSelectionVC()
 //        let navigationController = UINavigationController(rootViewController: testVC)
 //        window.rootViewController = navigationController
 //

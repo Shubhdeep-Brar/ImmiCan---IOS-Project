@@ -15,13 +15,15 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
     
     
     @IBAction func pressedSkipButton(_ sender: UIBarButtonItem) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
        // self.navigationController?.pushViewController(vc, animated: true)
        // self.navigationController?.push(vc, animated: true)
        // self.tabBarControl
         //self.present(TabBarController(), animated: true, completion: nil)
-        self.present(TabBarController(), animated: true)
+        //self.present(TabBarController(), animated: true)
+       performSegue(withIdentifier: "goToTabBar", sender: sender)
+    
         
     }
     
@@ -40,6 +42,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         let page4: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "driversLicense")
         let page5: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "healthCare")
         let page6: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "bankingInformation")
+        let page7: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "endTour")
         
         
         pages.append(page1)
@@ -48,6 +51,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         pages.append(page4)
         pages.append(page5)
         pages.append(page6)
+        pages.append(page7)
         
         setViewControllers([page1], direction: UIPageViewController.NavigationDirection.forward, animated: false)
         // Do any additional setup after loading the view, typically from a nib.
