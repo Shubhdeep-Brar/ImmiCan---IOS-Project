@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0425855E29C3F8500084E657 /* IntroductoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425855D29C3F8500084E657 /* IntroductoryCell.swift */; };
+		044304632A00AACA00D0E7CE /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 044304622A00AACA00D0E7CE /* FacebookLogin */; };
 		044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ABC7229AEEC030070B334 /* selectingDocument.swift */; };
 		044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ABC7429AEF2190070B334 /* DatePicker.swift */; };
 		044B1C9629F24DE1007FB9D0 /* JobApplicationStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */; };
 		044B1C9829F26824007FB9D0 /* FinalJobSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B1C9729F26824007FB9D0 /* FinalJobSubmission.swift */; };
 		044B1C9F29F3982F007FB9D0 /* ProfileData in Resources */ = {isa = PBXBuildFile; fileRef = 044B1C9E29F3982F007FB9D0 /* ProfileData */; };
+		0458E3EC29F8E5C5001CC83B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3EB29F8E5C5001CC83B /* TabBarController.swift */; };
+		0458E3EF29F9F193001CC83B /* CreateAJobPostStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */; };
+		0458E3F229FA0437001CC83B /* JobFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3F129FA0437001CC83B /* JobFirstPage.swift */; };
 		0460CA9D29D67118006BB93B /* detailedJobPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460CA9C29D67118006BB93B /* detailedJobPageViewController.swift */; };
 		0460CA9F29DBB16B006BB93B /* JobSpecifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460CA9E29DBB16B006BB93B /* JobSpecifications.swift */; };
 		0460CAA129DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460CAA029DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift */; };
@@ -34,7 +38,10 @@
 		04BE9CE129567FEB0079FBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CDF29567FEB0079FBA3 /* Main.storyboard */; };
 		04BE9CE329567FEC0079FBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE229567FEC0079FBA3 /* Assets.xcassets */; };
 		04BE9CE629567FEC0079FBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE429567FEC0079FBA3 /* LaunchScreen.storyboard */; };
+		04D91D192A00B47C00AD4E0D /* FacebookLoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */; };
 		04DD743729E7C1AC0044CF13 /* ApplyingToJobViewElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */; };
+		7A01250229FA4AC60029458A /* provinceSelectedByUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */; };
+		7A01250429FAFB9F0029458A /* MarketPlaceSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */; };
 		7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */; };
 		7A51291C29F380EB001D532C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291B29F380EB001D532C /* MenuVC.swift */; };
 		7A51291E29F3A326001D532C /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A51291D29F3A326001D532C /* ChatVC.swift */; };
@@ -69,11 +76,13 @@
 		FB9A4A7A29EF5A09004E76A5 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7929EF5A09004E76A5 /* FirebaseAnalyticsSwift */; };
 		FB9A4A7C29EF5A09004E76A5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7B29EF5A09004E76A5 /* FirebaseFirestore */; };
 		FB9A4A7F29EF5A87004E76A5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7E29EF5A87004E76A5 /* FirebaseAuth */; };
-		FB9A4A8329EF5BCF004E76A5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8229EF5BCF004E76A5 /* Message.swift */; };
+		FB9A4A8329EF5BCF004E76A5 /* MessageChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8229EF5BCF004E76A5 /* MessageChat.swift */; };
 		FB9A4A8529EF5BDC004E76A5 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8429EF5BDC004E76A5 /* Chat.swift */; };
 		FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */; };
 		FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */; };
 		FB9A4A8D29EF696E004E76A5 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A8C29EF696E004E76A5 /* MessageKit */; };
+		FBEE0FFC29F89F4200581935 /* SellHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFB29F89F4200581935 /* SellHouse.swift */; };
+		FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */; };
 		FBF25F1529DBB82000E111B9 /* HousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1229DBB82000E111B9 /* HousingCell.swift */; };
 		FBF25F1729DBB82000E111B9 /* IntroductoryHousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1429DBB82000E111B9 /* IntroductoryHousingCell.swift */; };
 		FBF25F1929DBB85A00E111B9 /* HousingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1829DBB85A00E111B9 /* HousingData.swift */; };
@@ -88,6 +97,9 @@
 		044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationStructure.swift; sourceTree = "<group>"; };
 		044B1C9729F26824007FB9D0 /* FinalJobSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalJobSubmission.swift; sourceTree = "<group>"; };
 		044B1C9E29F3982F007FB9D0 /* ProfileData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ProfileData; sourceTree = "<group>"; };
+		0458E3EB29F8E5C5001CC83B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAJobPostStructure.swift; sourceTree = "<group>"; };
+		0458E3F129FA0437001CC83B /* JobFirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFirstPage.swift; sourceTree = "<group>"; };
 		0460CA9C29D67118006BB93B /* detailedJobPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailedJobPageViewController.swift; sourceTree = "<group>"; };
 		0460CA9E29DBB16B006BB93B /* JobSpecifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSpecifications.swift; sourceTree = "<group>"; };
 		0460CAA029DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedJobDiscriptionDataProvider.swift; sourceTree = "<group>"; };
@@ -111,8 +123,11 @@
 		04BE9CE229567FEC0079FBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BE9CE529567FEC0079FBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BE9CE729567FEC0079FBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginTest.swift; sourceTree = "<group>"; };
 		04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingToJobViewElements.swift; sourceTree = "<group>"; };
 		04DD743B29ED0A0E0044CF13 /* ImmiCan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImmiCan.entitlements; sourceTree = "<group>"; };
+		7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provinceSelectedByUser.swift; sourceTree = "<group>"; };
+		7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlaceSelectionVC.swift; sourceTree = "<group>"; };
 		7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCareViewController.swift; sourceTree = "<group>"; };
 		7A51291B29F380EB001D532C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		7A51291D29F3A326001D532C /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
@@ -139,10 +154,12 @@
 		FB721FA029BAF18D00EEA377 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		FB721FA229BAF21200EEA377 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FB721FA429BAF24A00EEA377 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
-		FB9A4A8229EF5BCF004E76A5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FB9A4A8229EF5BCF004E76A5 /* MessageChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageChat.swift; sourceTree = "<group>"; };
 		FB9A4A8429EF5BDC004E76A5 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		FBEE0FFB29F89F4200581935 /* SellHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellHouse.swift; sourceTree = "<group>"; };
+		FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImagesHousing.swift; sourceTree = "<group>"; };
 		FBF25F1229DBB82000E111B9 /* HousingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingCell.swift; sourceTree = "<group>"; };
 		FBF25F1429DBB82000E111B9 /* IntroductoryHousingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductoryHousingCell.swift; sourceTree = "<group>"; };
 		FBF25F1829DBB85A00E111B9 /* HousingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingData.swift; sourceTree = "<group>"; };
@@ -155,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044304632A00AACA00D0E7CE /* FacebookLogin in Frameworks */,
 				FB99C22129F0C1D000E7BCEC /* GoogleSignInSwift in Frameworks */,
 				FB8DB7B829EF8F9A008B4DCC /* SDWebImage in Frameworks */,
 				FB99C21F29F0C1D000E7BCEC /* GoogleSignIn in Frameworks */,
@@ -192,6 +210,15 @@
 			path = FinalJobSubmissionPage;
 			sourceTree = "<group>";
 		};
+		0458E3ED29F9F161001CC83B /* CreatingAJobPost */ = {
+			isa = PBXGroup;
+			children = (
+				0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */,
+				0458E3F129FA0437001CC83B /* JobFirstPage.swift */,
+			);
+			path = CreatingAJobPost;
+			sourceTree = "<group>";
+		};
 		0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +247,11 @@
 		04BE9CCD29567FEB0079FBA3 = {
 			isa = PBXGroup;
 			children = (
+				7A01250029FA4A480029458A /* PickerSelection */,
+				04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */,
+				0458E3ED29F9F161001CC83B /* CreatingAJobPost */,
+				0458E3EB29F8E5C5001CC83B /* TabBarController.swift */,
+				FBEE0FFA29F89F1000581935 /* SellHousing */,
 				FB0648FC29EE103E00F5CA21 /* Chat  */,
 				FBF25F1E29DBB8DB00E111B9 /* DetailedHousingCell */,
 				04BE9CD829567FEB0079FBA3 /* ImmiCan */,
@@ -249,11 +281,11 @@
 				04AEF75C29A7276200076378 /* Data */,
 				FB721F9D29BAF09C00EEA377 /* Friends */,
 				FB669E44298CC8290029FF07 /* customizedViewForTutorials.swift */,
+				7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */,
 				04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */,
 				04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */,
 				04BE9CDD29567FEB0079FBA3 /* ViewController.swift */,
 				04BE9CDF29567FEB0079FBA3 /* Main.storyboard */,
-				7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */,
 				7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */,
 				049051B0296A771400FCF4E3 /* createAccountViewController.swift */,
 				049051AE296A752300FCF4E3 /* loginViewController.swift */,
@@ -278,7 +310,6 @@
 			path = ImmiCan;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		04DD743329E7BE540044CF13 /* ApplyingToJob */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +319,15 @@
 			path = ApplyingToJob;
 			sourceTree = "<group>";
 		};
+		7A01250029FA4A480029458A /* PickerSelection */ = {
+			isa = PBXGroup;
+			children = (
+				7A60BF5E298A13F8008FF92D /* SelectProvincePicker.swift */,
+				7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */,
+			);
+			path = PickerSelection;
+			sourceTree = "<group>";
+		};
 		7A9CAC2E29DBC9EC00643E9F /* MarketPlace */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,18 +335,18 @@
 				7A9CAC3529DE7E0500643E9F /* MarketPlaceCell.swift */,
 			);
 			path = MarketPlace;
-=======
+			sourceTree = "<group>";
+		};
 		FB0648FC29EE103E00F5CA21 /* Chat  */ = {
 			isa = PBXGroup;
 			children = (
-				FB9A4A8229EF5BCF004E76A5 /* Message.swift */,
+				FB9A4A8229EF5BCF004E76A5 /* MessageChat.swift */,
 				FB9A4A8429EF5BDC004E76A5 /* Chat.swift */,
 				FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */,
 				FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */,
 				FB09DD7229F3420B00BCB2DD /* AuthenticationViewModel.swift */,
 			);
 			path = "Chat ";
->>>>>>> Feature/Housing
 			sourceTree = "<group>";
 		};
 		FB721F9D29BAF09C00EEA377 /* Friends */ = {
@@ -325,6 +365,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEE0FFA29F89F1000581935 /* SellHousing */ = {
+			isa = PBXGroup;
+			children = (
+				FBEE0FFB29F89F4200581935 /* SellHouse.swift */,
+				FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */,
+			);
+			path = SellHousing;
 			sourceTree = "<group>";
 		};
 		FBF25F1129DBB82000E111B9 /* Cell */ = {
@@ -373,6 +422,7 @@
 				FB8DB7B929EF8F9A008B4DCC /* SDWebImageMapKit */,
 				FB99C21E29F0C1D000E7BCEC /* GoogleSignIn */,
 				FB99C22029F0C1D000E7BCEC /* GoogleSignInSwift */,
+				044304622A00AACA00D0E7CE /* FacebookLogin */,
 			);
 			productName = ImmiCan;
 			productReference = 04BE9CD629567FEB0079FBA3 /* ImmiCan.app */;
@@ -407,6 +457,7 @@
 				FB9A4A8B29EF696E004E76A5 /* XCRemoteSwiftPackageReference "MessageKit" */,
 				FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				FB99C21D29F0C1D000E7BCEC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				044304612A00AACA00D0E7CE /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 04BE9CD729567FEB0079FBA3 /* Products */;
 			projectDirPath = "";
@@ -442,22 +493,23 @@
 				FB669E45298CC8290029FF07 /* customizedViewForTutorials.swift in Sources */,
 				049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */,
 				FB09DD7329F3420B00BCB2DD /* AuthenticationViewModel.swift in Sources */,
+				0458E3EF29F9F193001CC83B /* CreateAJobPostStructure.swift in Sources */,
 				FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */,
-				FB9A4A8329EF5BCF004E76A5 /* Message.swift in Sources */,
+				FB9A4A8329EF5BCF004E76A5 /* MessageChat.swift in Sources */,
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
-<<<<<<< HEAD
 				047F55C229C55F5200CAD8B7 /* jobPosting.swift in Sources */,
+				0458E3EC29F8E5C5001CC83B /* TabBarController.swift in Sources */,
 				047F55C629C652B200CAD8B7 /* JobCell.swift in Sources */,
 				7A9CAC3229DE796100643E9F /* MarketPlaceTopView.swift in Sources */,
-=======
 				FB06490029EE118600F5CA21 /* ImageCell.swift in Sources */,
->>>>>>> Feature/Housing
 				044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */,
+				FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */,
 				7A9CAC3429DE7A9600643E9F /* MarketPlaceCVData.swift in Sources */,
 				7AF42A5629EA729900E3CA31 /* ListingData.swift in Sources */,
 				7A9CAC3629DE7E0500643E9F /* MarketPlaceCell.swift in Sources */,
 				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
 				04A9F9C829DE55FC005F387A /* SingleJobPage.swift in Sources */,
+				7A01250429FAFB9F0029458A /* MarketPlaceSelectionVC.swift in Sources */,
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				FBF25F1B29DBB86E00E111B9 /* HouseUser.swift in Sources */,
 				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
@@ -469,10 +521,13 @@
 				7A51292029F3AF97001D532C /* Message.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
 				7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */,
+				7A01250229FA4AC60029458A /* provinceSelectedByUser.swift in Sources */,
 				7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */,
 				7A60BF5F298A13F8008FF92D /* SelectProvincePicker.swift in Sources */,
 				FB721FA329BAF21200EEA377 /* User.swift in Sources */,
 				044B1C9829F26824007FB9D0 /* FinalJobSubmission.swift in Sources */,
+				FBEE0FFC29F89F4200581935 /* SellHouse.swift in Sources */,
+				04D91D192A00B47C00AD4E0D /* FacebookLoginTest.swift in Sources */,
 				FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */,
 				7A51291E29F3A326001D532C /* ChatVC.swift in Sources */,
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,
@@ -483,21 +538,16 @@
 				7A9CAC3929DE886200643E9F /* MarketPlaceDataProvider.swift in Sources */,
 				04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */,
 				7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */,
-<<<<<<< HEAD
 				0460CAA129DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift in Sources */,
-=======
 				FBF25F1929DBB85A00E111B9 /* HousingData.swift in Sources */,
->>>>>>> Feature/Housing
 				7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */,
 				0460CA9D29D67118006BB93B /* detailedJobPageViewController.swift in Sources */,
+				0458E3F229FA0437001CC83B /* JobFirstPage.swift in Sources */,
 				047F55C429C567E700CAD8B7 /* JobDataProvider.swift in Sources */,
 				FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */,
 				049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */,
-<<<<<<< HEAD
 				04DD743729E7C1AC0044CF13 /* ApplyingToJobViewElements.swift in Sources */,
-=======
 				FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */,
->>>>>>> Feature/Housing
 				7AB8C96C2992093700C751C4 /* tutorialHandler.swift in Sources */,
 				047F55BE29C549CE00CAD8B7 /* NameAndAvtar.swift in Sources */,
 				047F55C029C54C3B00CAD8B7 /* jobPageInitialViewController.swift in Sources */,
@@ -725,6 +775,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		044304612A00AACA00D0E7CE /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
@@ -760,6 +818,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		044304622A00AACA00D0E7CE /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044304612A00AACA00D0E7CE /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
 		FB8DB7B729EF8F9A008B4DCC /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */;

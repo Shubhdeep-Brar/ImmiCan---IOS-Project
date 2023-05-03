@@ -260,7 +260,6 @@
                                                                 </userDefinedRuntimeAttributes>
                                                                 <connections>
                                                                     <action selector="loginButtonTapped:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="T0e-be-1ww"/>
-                                                                    <action selector="tappedLoginButton:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="6ob-QA-YHX"/>
                                                                 </connections>
                                                             </button>
                                                         </subviews>
@@ -480,6 +479,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Qh-pK-eZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5688" y="-273"/>
+        </scene>
+        <!--Facebook Login Test-->
+        <scene sceneID="BIs-uk-860">
+            <objects>
+                <viewController id="AjI-OQ-2IH" customClass="FacebookLoginTest" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5yr-Qq-QSn">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noG-Rl-9Ai">
+                                <rect key="frame" x="158" y="330" width="175" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="facebookLoginButton:" destination="AjI-OQ-2IH" eventType="touchUpInside" id="yMR-qT-R1s"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sbY-Do-gon"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v5T-Ya-xCQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6632.3076923076924" y="-269.43127962085305"/>
         </scene>
         <!--Select Province Picker-->
         <scene sceneID="Ihe-uS-hiG">

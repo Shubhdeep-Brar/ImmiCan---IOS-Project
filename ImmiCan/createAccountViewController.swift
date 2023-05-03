@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 
 class createAccountViewController: UIViewController {
@@ -24,6 +25,34 @@ class createAccountViewController: UIViewController {
     
     
     @IBAction func signUpTapped(_ sender: Any) {
+        guard let email = emailText.text else { return}
+        guard let password = passwordText.text else { return}
+        
+        Auth.auth().createUser(withEmail: email, password: password) {firebaseResult, error in
+            if let e = error {
+                // show alert
+                let alertViewController = UIAlertController(title: "Error", message: "This account already exists", preferredStyle: .alert)
+                
+                
+                let action = UIAlertAction(title: "Sign in", style: .cancel, handler: { _ in
+                    let altertVC = loginViewController()
+                    self.navigationController!.pushViewController(altertVC, animated: true)
+                })
+                
+                self.present(alertViewController, animated: true)
+                
+               // self.navigationController?.present(alertViewController, animated: true)
+                
+                
+                
+                alertViewController.addAction(action)
+                
+                
+            }
+            else{
+                print("Account created")
+            }
+        }
        
     }
     
