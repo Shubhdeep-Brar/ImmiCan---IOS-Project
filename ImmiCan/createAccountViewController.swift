@@ -19,6 +19,13 @@ class createAccountViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        passwordText.rightViewMode = UITextField.ViewMode.always
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 2, height: 2))
+        let image = UIImage(named: "closedEye")
+        imageView.contentMode = .scaleAspectFit
+        imageView.image = image
+        //passwordText.rightView. = imageView.
 
         // Do any additional setup after loading the view.
     }
@@ -51,6 +58,7 @@ class createAccountViewController: UIViewController {
             }
             else{
                 print("Account created")
+               
             }
         }
        

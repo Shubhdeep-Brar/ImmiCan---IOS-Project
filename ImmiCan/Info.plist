@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    
-    
-<dict><key>CFBundleURLTypes</key>
-    <array>
-      <dict>
-      <key>CFBundleURLSchemes</key>
-      <array>
-        <string>fbAPP-ID</string>
-      </array>
-      </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>1420714408685789</string>
-    <key>FacebookClientToken</key>
-    <string>c509ac43e343b0df49dd325345006d6f</string>
-    <key>FacebookDisplayName</key>
-    <string>ImmiCan</string>
+<dict>
 	<key>CFBundleURLTypes</key>
 	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.734025601142-qa2ago2dide4ituac3jdbi25a1pprio0</string>
+				<string>fb1420714408685789</string>
+			</array>
+		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
@@ -28,18 +25,31 @@
 				<string>com.googleusercontent.apps.734025601142-qa2ago2dide4ituac3jdbi25a1pprio0</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.435114534530-r4r389epgj92ngs5aq1qs0va74trchhi</string>
+			</array>
+		</dict>
 	</array>
+	<key>FacebookAppID</key>
+	<string>1420714408685789</string>
+	<key>FacebookClientToken</key>
+	<string>c509ac43e343b0df49dd325345006d6f</string>
+	<key>FacebookDisplayName</key>
+	<string>ImmiCan</string>
 	<key>GIDClientID</key>
-	<string>734025601142-qa2ago2dide4ituac3jdbi25a1pprio0.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.435114534530-pv4iu0v1ap9smnbpn0no9cbdthjr2gq8.apps.googleusercontent.com</string>
 	<key>Key</key>
 	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
 	<key>NSDocumentPickerUsageDescription</key>
-	<string></string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>You can select photos</string>
-	<key>NSCameraUsageDescription</key>
-	<string>This app will use camera</string>
-	<key>CFBundleIdentifier</key>
 	<string></string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
