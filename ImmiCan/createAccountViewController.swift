@@ -42,7 +42,7 @@ class createAccountViewController: UIViewController {
                 
                 
                 let action = UIAlertAction(title: "Sign in", style: .cancel, handler: { _ in
-                    let altertVC = loginViewController()
+                    let altertVC = LoginViewController()
                     self.navigationController!.pushViewController(altertVC, animated: true)
                 })
                 

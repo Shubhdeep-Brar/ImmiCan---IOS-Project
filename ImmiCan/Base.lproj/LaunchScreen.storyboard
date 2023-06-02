@@ -16,24 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pmd-Gr-MeX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launchscreen1" translatesAutoresizingMaskIntoConstraints="NO" id="xZ9-ZY-r64">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="UXY-fw-wJi">
+                                <rect key="frame" x="120" y="74" width="150" height="193"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="gRr-AB-F0V">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Od8-W0-5eL">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="0o5-SD-x6M"/>
+                                            <constraint firstAttribute="height" constant="150" id="A2n-yu-Ug5"/>
+                                        </constraints>
                                     </imageView>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="c00-bM-5hp">
-                                <rect key="frame" x="78" y="60" width="242" height="704"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Std-y8-sQ3">
-                                        <rect key="frame" x="0.0" y="0.0" width="242" height="585"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Immi Can" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qHL-GE-BoA">
-                                        <rect key="frame" x="0.0" y="589" width="242" height="115"/>
-                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="44"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Immi Can" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Go-aM-TSk">
+                                        <rect key="frame" x="8.6666666666666572" y="155" width="133" height="38"/>
+                                        <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="30"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -42,14 +41,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="pmd-Gr-MeX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2re-EJ-ShQ"/>
-                            <constraint firstItem="pmd-Gr-MeX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Kf-bQ-voc"/>
-                            <constraint firstAttribute="bottom" secondItem="pmd-Gr-MeX" secondAttribute="bottom" id="AJ4-U5-xr3"/>
-                            <constraint firstItem="pmd-Gr-MeX" firstAttribute="trailing" secondItem="c00-bM-5hp" secondAttribute="trailing" constant="70" id="Iqf-Om-P8S"/>
-                            <constraint firstItem="pmd-Gr-MeX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Whl-6R-DHe"/>
-                            <constraint firstItem="c00-bM-5hp" firstAttribute="leading" secondItem="pmd-Gr-MeX" secondAttribute="leading" constant="78" id="XM0-f0-s87"/>
-                            <constraint firstItem="c00-bM-5hp" firstAttribute="top" secondItem="pmd-Gr-MeX" secondAttribute="top" constant="60" id="YqQ-zK-Cio"/>
-                            <constraint firstItem="pmd-Gr-MeX" firstAttribute="bottom" secondItem="c00-bM-5hp" secondAttribute="bottom" constant="80" id="kHO-zo-pcn"/>
+                            <constraint firstItem="xZ9-ZY-r64" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7AL-9N-xRp"/>
+                            <constraint firstItem="xZ9-ZY-r64" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="OPG-3b-bmG"/>
+                            <constraint firstItem="xZ9-ZY-r64" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="YBN-Uh-NPr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UXY-fw-wJi" secondAttribute="bottom" constant="543" id="dXo-Nf-JPQ"/>
+                            <constraint firstAttribute="bottom" secondItem="xZ9-ZY-r64" secondAttribute="bottom" id="j5b-62-J9c"/>
+                            <constraint firstItem="UXY-fw-wJi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="k0D-UJ-lzr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UXY-fw-wJi" secondAttribute="trailing" constant="120" id="kvg-Sr-HrI"/>
+                            <constraint firstItem="UXY-fw-wJi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="vWn-Zq-ycf"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -59,8 +58,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="242" height="277"/>
-        <image name="backgroundImage" width="390" height="844"/>
+        <image name="LaunchLogo" width="242" height="277"/>
+        <image name="Launchscreen1" width="684" height="1024"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

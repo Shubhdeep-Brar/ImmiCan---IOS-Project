@@ -22,7 +22,7 @@ class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDa
     var documentData = ImmigrationDocumentData.immigrationStatus()
     
     
-    
+
     let datePicker = UIDatePicker()
     
     override func viewDidLoad() {
@@ -41,7 +41,7 @@ class selectingDocument : UIViewController, UIPickerViewDelegate, UIPickerViewDa
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
+   
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
