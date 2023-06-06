@@ -17,20 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="VAb-0N-IQH">
-                                <rect key="frame" x="6" y="50" width="378" height="617.33333333333337"/>
+                                <rect key="frame" x="6" y="50" width="378" height="740"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="-40" translatesAutoresizingMaskIntoConstraints="NO" id="obr-7S-5y7">
-                                        <rect key="frame" x="14" y="0.0" width="350" height="321.33333333333331"/>
+                                        <rect key="frame" x="14" y="0.0" width="350" height="444"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="LoginSignupPageImage" translatesAutoresizingMaskIntoConstraints="NO" id="aet-sE-TqW">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="331.33333333333331"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="454"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="cn0-ji-abG"/>
                                                     <constraint firstAttribute="height" constant="350" id="etS-jg-JUy"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your go to Guide!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71m-4S-iMI">
-                                                <rect key="frame" x="75" y="291.33333333333331" width="200" height="30"/>
+                                                <rect key="frame" x="75" y="414" width="200" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="B64-dm-Srk"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="FEH-rD-L0g"/>
@@ -42,7 +42,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-gT-kRc">
-                                        <rect key="frame" x="89" y="349.33333333333331" width="200" height="32"/>
+                                        <rect key="frame" x="89" y="472" width="200" height="32"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When you need the most!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bva-Sq-LPY">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="16"/>
@@ -63,7 +63,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WDz-qf-NXZ">
-                                        <rect key="frame" x="21.666666666666657" y="409.33333333333331" width="335" height="119.99999999999994"/>
+                                        <rect key="frame" x="21.666666666666657" y="532" width="335" height="120"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSw-Sq-x8z">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="55"/>
@@ -116,7 +116,7 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNK-0C-nak">
-                                        <rect key="frame" x="129" y="557.33333333333337" width="120" height="60"/>
+                                        <rect key="frame" x="129" y="680" width="120" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="9CP-to-bqr"/>
                                             <constraint firstAttribute="height" constant="60" id="vBx-Lp-h9Y"/>
@@ -430,7 +430,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-17" y="341" width="389" height="162"/>
+                                <rect key="frame" x="-18" y="341" width="386" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -482,29 +482,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IRq-a1-573" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7903" y="1455"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="JH4-Rv-jiL">
-            <objects>
-                <viewController id="qSG-CB-GN4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="In3-OX-Pa0">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="4RP-gW-hhc"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Hhn-ZY-azN"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8gO-lR-KAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5586" y="1455"/>
+            <point key="canvasLocation" x="4608" y="823"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="CBe-wL-z1x">
             <objects>
                 <viewController id="4gD-8u-9hh" customClass="createAccountViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="G8M-jV-poO">
+                    <view key="view" contentMode="scaleToFill" id="G8M-jV-poO">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -633,7 +617,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dba-wX-KJ4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3777" y="673"/>
+            <point key="canvasLocation" x="2894" y="685"/>
         </scene>
         <!--Tutorial Handler-->
         <scene sceneID="kS2-na-BK1">
@@ -699,7 +683,7 @@ the documents you would need as a new immigrant.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qf6-fa-pD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5500" y="672.51184834123217"/>
+            <point key="canvasLocation" x="4608" y="1509"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="q0h-HL-dhx">
@@ -1001,158 +985,91 @@ the following list</string>
             <point key="canvasLocation" x="14235" y="686"/>
         </scene>
         <!--Tutorial Handler-->
-        <scene sceneID="gPj-Zq-xfj">
+        <scene sceneID="Ygx-OT-5v1">
             <objects>
-                <viewController storyboardIdentifier="healthCare" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7J0-Ff-7iB" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="o7r-Zl-q8h" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                <viewController storyboardIdentifier="healthCare" id="YfQ-Q1-jwF" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kKH-3g-yQb">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5X1-MR-b1C" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hdx-4e-TIV">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCb-pE-tv5">
-                                        <rect key="frame" x="36" y="486" width="322" height="96"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HospitalIcon" translatesAutoresizingMaskIntoConstraints="NO" id="fbf-gH-ojy">
+                                        <rect key="frame" x="75" y="146" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxi-Qe-R7I">
+                                        <rect key="frame" x="20" y="374" width="350" height="126"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Healthcare in Canada is delivered through 
 the provincial and territorial systems of
 publicly funded healthcare, informally 
 called Medicare. </string>
-                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2y-s8-KNg">
-                                        <rect key="frame" x="36" y="590" width="318" height="94"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ues-ae-JWc">
+                                        <rect key="frame" x="20" y="478" width="350" height="170"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Each provincial health insurance plan covers medically necessary hospital and doctors' services that are provided on a pre-paid basis,
 without direct charges at the point of 
 service.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immi Can" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s83-9g-NiX">
-                                        <rect key="frame" x="175" y="779" width="45" height="23"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vecteezy_medical-center-hospital-building-vector-design_" translatesAutoresizingMaskIntoConstraints="NO" id="OSw-0r-QOR">
-                                        <rect key="frame" x="18" y="92" width="354" height="340"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0W-5J-Fm6">
-                                        <rect key="frame" x="36" y="457" width="111" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">HEALTH CARE
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ju-EN-5zg">
-                                        <rect key="frame" x="36" y="717" width="318" height="54"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJG-dH-gGd">
+                                        <rect key="frame" x="45" y="665" width="300" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="ELB-wn-iJY"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="hhI-gJ-RJp"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Apply">
+                                        <buttonConfiguration key="configuration" style="plain" title="Apply" cornerStyle="capsule">
                                             <backgroundConfiguration key="background">
-                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="applyHealthCardTapped:" destination="7J0-Ff-7iB" eventType="touchUpInside" id="aGo-1S-fLc"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Pmk-UM-ROD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="hoj-Pv-dfL"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uZX-gQ-aVK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4607.6923076923076" y="4185.0710900473932"/>
-        </scene>
-        <!--Tutorial Handler-->
-        <scene sceneID="k1a-sM-YXB">
-            <objects>
-                <viewController storyboardIdentifier="bankingInformation" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f9n-2z-2Z4" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vVO-fy-NlT" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qlp-GT-KYQ" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSf-Iv-9t3">
-                                        <rect key="frame" x="30" y="503" width="331" height="115"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">New immigrants to Canada need banking services to manage their finances and settle into their new life. This includes opening a bank account to receive income, access to ATMs and debit cards for everyday transactions, and options for transferring funds from their home country. </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYM-xv-T7d">
-                                        <rect key="frame" x="30" y="626" width="331" height="89"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Establishing a relationship with a Canadian bank can also help in building a credit history, which is important for future financial needs like obtaining a loan or renting an apartment.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxK-Y7-3kd">
-                                        <rect key="frame" x="30" y="723" width="331" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Show Nearby Banks">
-                                            <backgroundConfiguration key="background">
-                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="16"/>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="showNearByBanksTapped:" destination="f9n-2z-2Z4" eventType="touchUpInside" id="gOD-aw-3sm"/>
+                                            <action selector="applyHealthCardTapped:" destination="YfQ-Q1-jwF" eventType="touchUpInside" id="44W-F4-T0v"/>
+                                            <action selector="applyIDButtonTapped:" destination="5Je-3D-FdJ" eventType="touchUpInside" id="ZKs-to-47X"/>
+                                            <action selector="applySinButtonTapped:" destination="8Xa-ND-BZl" eventType="touchUpInside" id="KqR-wV-bMZ"/>
+                                            <action selector="loginButtonTapped:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="mNp-sM-n6L"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Banking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tG1-sx-cqs">
-                                        <rect key="frame" x="30" y="471" width="100" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Banking" translatesAutoresizingMaskIntoConstraints="NO" id="yPg-17-gfB">
-                                        <rect key="frame" x="8" y="74" width="382" height="285"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immi Can" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWM-EZ-jTD">
-                                        <rect key="frame" x="173" y="779" width="45" height="23"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Health Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4V-sb-bnO">
+                                        <rect key="frame" x="39" y="282" width="312" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="1wP-V8-nVY"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="312" id="Mb7-Bq-UHQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="4ps-iC-Mdr"/>
+                        <viewLayoutGuide key="safeArea" id="5Gw-lo-aHH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zoR-6I-UYP"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5m5-si-EwU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfH-et-OEP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4608" y="4843"/>
+            <point key="canvasLocation" x="4608" y="4210"/>
         </scene>
         <!--Tutorial Handler-->
         <scene sceneID="fos-rG-xCf">
@@ -1199,46 +1116,145 @@ service.</string>
             <point key="canvasLocation" x="1906.1538461538462" y="-2.1327014218009479"/>
         </scene>
         <!--Tutorial Handler-->
-        <scene sceneID="jMS-j3-QfJ">
+        <scene sceneID="HaL-uR-0Pa">
             <objects>
-                <viewController storyboardIdentifier="provincialId" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gpk-df-a8b" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hRH-4g-LHd" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                <viewController id="5Je-3D-FdJ" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cxc-qW-uuo">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYA-Qt-KlW" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5iJ-a3-b5r">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Provincial ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vO7-nm-g8u">
-                                        <rect key="frame" x="8" y="446" width="154" height="33"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kj5-GL-ul7">
+                                        <rect key="frame" x="29" y="140" width="332.33333333333331" height="608"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Nn2-wd-hrE">
+                                                <rect key="frame" x="10.333333333333343" y="0.0" width="312" height="240"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IDIcon" translatesAutoresizingMaskIntoConstraints="NO" id="S9w-8i-hjS">
+                                                        <rect key="frame" x="56" y="0.0" width="200" height="160"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="160" id="anE-Bh-jJa"/>
+                                                            <constraint firstAttribute="width" constant="200" id="uJn-FT-513"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Provincial ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyw-Zg-1Ae">
+                                                        <rect key="frame" x="0.0" y="160" width="312" height="80"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="312" id="7sT-hU-CdV"/>
+                                                            <constraint firstAttribute="height" constant="80" id="BAB-DZ-nJu"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="ovt-wn-hTT">
+                                                <rect key="frame" x="0.0" y="248" width="332.33333333333331" height="360"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yw-gs-nHU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="332.33333333333331" height="265"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="350" id="IMc-fA-LgB"/>
+                                                            <constraint firstAttribute="height" constant="265" id="jhU-XM-6rh"/>
+                                                        </constraints>
+                                                        <string key="text">All Canadian provinces produce photo ID cards for Canadians. Provincial IDs in Canada offer the following benefits:
+
+- Official proof of identity within the issuing province.
+- Age verification for alcohol and age-restricted venues.
+Accepted as ID for domestic travel.
+- Reduces the need for sensitive documents.
+- Provides easy access to government services.</string>
+                                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFA-jd-ngh">
+                                                        <rect key="frame" x="16.333333333333343" y="305" width="300" height="55"/>
+                                                        <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="9Ir-vv-FcG"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="kDf-Xr-jkr"/>
+                                                        </constraints>
+                                                        <color key="tintColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Apply" cornerStyle="capsule">
+                                                            <backgroundConfiguration key="background">
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </backgroundConfiguration>
+                                                            <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="16"/>
+                                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="29"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="applyIDButtonTapped:" destination="5Je-3D-FdJ" eventType="touchUpInside" id="phN-iB-D9D"/>
+                                                            <action selector="applySinButtonTapped:" destination="8Xa-ND-BZl" eventType="touchUpInside" id="grb-6B-ein"/>
+                                                            <action selector="loginButtonTapped:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="ALN-bi-NIy"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ScA-eN-okG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HbT-BG-45K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4607.6923076923076" y="2877.7251184834122"/>
+        </scene>
+        <!--Tutorial Handler-->
+        <scene sceneID="jBb-0U-iZ3">
+            <objects>
+                <viewController storyboardIdentifier="driversLicense" id="Ea5-tz-tnc" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lUR-mM-iVu">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cEB-fZ-QlR">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DLIcon" translatesAutoresizingMaskIntoConstraints="NO" id="RG1-Fp-k9p">
+                                        <rect key="frame" x="87" y="166" width="217" height="151"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Driver's License" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDr-Kh-Hyv">
+                                        <rect key="frame" x="39" y="325" width="312" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="fPV-aC-Gb7"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="312" id="nVT-sZ-DRy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Canadian provinces produce photo ID cards for Canadians. " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFy-Jm-Apg">
-                                        <rect key="frame" x="8" y="511" width="374" height="153"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="14"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immi Can" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19c-hN-LM6">
-                                        <rect key="frame" x="159" y="764" width="72.666666666666657" height="37.333333333333343"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Light" family="Noto Sans Myanmar" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppm-XQ-0QX">
-                                        <rect key="frame" x="107" y="686" width="177" height="57"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMq-Zv-Tp2">
+                                        <rect key="frame" x="45" y="611" width="300" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="5Hh-ip-h5a"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="QjC-P9-Oqp"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Apply">
-                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Apply" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="16"/>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <userDefinedRuntimeAttributes>
@@ -1247,24 +1263,31 @@ service.</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="applyIDButtonTapped:" destination="gpk-df-a8b" eventType="touchUpInside" id="Xut-d0-M9c"/>
+                                            <action selector="applyDLButtonTapped:" destination="Ea5-tz-tnc" eventType="touchUpInside" id="uc0-MZ-zg9"/>
+                                            <action selector="applyIDButtonTapped:" destination="5Je-3D-FdJ" eventType="touchUpInside" id="tlt-02-GVN"/>
+                                            <action selector="applySinButtonTapped:" destination="8Xa-ND-BZl" eventType="touchUpInside" id="zJ0-Ag-6Zg"/>
+                                            <action selector="loginButtonTapped:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="K3x-RT-qWS"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="goveronmentId" translatesAutoresizingMaskIntoConstraints="NO" id="0Zq-oW-vYC">
-                                        <rect key="frame" x="49" y="153" width="292" height="265"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZw-6i-4gt">
+                                        <rect key="frame" x="16" y="413" width="350" height="158"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                        <string key="text">To legally drive a car in Canada, you’ll need a driver’s licence issued by the government of your province or territory. You must have it with you whenever you’re driving. With it, you can drive anywhere in Canada.</string>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Sc0-nE-HKe"/>
+                        <viewLayoutGuide key="safeArea" id="Ld1-RD-cQa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Ov2-Kn-W9g"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6ld-1X-6vb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2g-FJ-MHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4607.6923076923076" y="2866.3507109004736"/>
+            <point key="canvasLocation" x="4608" y="3537"/>
         </scene>
         <!--Connections-->
         <scene sceneID="vWI-Xi-AKx">
@@ -1281,73 +1304,6 @@ service.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAf-y4-Gbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="10080" y="3200"/>
-        </scene>
-        <!--Tutorial Handler-->
-        <scene sceneID="bgj-ZY-ThF">
-            <objects>
-                <viewController storyboardIdentifier="driversLicense" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aVT-7c-orm" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="guq-UZ-yPO" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mkh-lG-9k4" customClass="customizedViewForTutorials" customModule="ImmiCan" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Driver's License" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUg-hH-AaV">
-                                        <rect key="frame" x="8" y="445" width="154" height="33"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immi Can" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuH-8V-251">
-                                        <rect key="frame" x="168" y="764" width="72.666666666666657" height="37.333333333333343"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="NotoSansMyanmar-Light" family="Noto Sans Myanmar" pointSize="17"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXC-ee-Xel">
-                                        <rect key="frame" x="8" y="515" width="374" height="146"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">To legally drive a car in Canada, you’ll need a driver’s licence issued by the government of your province or territory. You must have it with you whenever you’re driving. With it, you can drive anywhere in Canada.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bc-Jd-oID">
-                                        <rect key="frame" x="107" y="687" width="177" height="57"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Apply">
-                                            <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                        </buttonConfiguration>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="29"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="applyDLButtonTapped:" destination="aVT-7c-orm" eventType="touchUpInside" id="lT1-4H-EiO"/>
-                                        </connections>
-                                    </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="driver's license" translatesAutoresizingMaskIntoConstraints="NO" id="5Qs-s7-Eyx">
-                                        <rect key="frame" x="25" y="85" width="365" height="352"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="w0i-m1-tpW"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="dOY-lk-ti4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ld-XG-fBc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4607.6923076923076" y="3528.9099526066348"/>
         </scene>
         <!--Tutorial Handler-->
         <scene sceneID="RyL-sT-F4D">
@@ -1420,7 +1376,7 @@ service.</string>
                                                 </constraints>
                                                 <color key="tintColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Apply">
+                                                <buttonConfiguration key="configuration" style="plain" title="Apply" cornerStyle="capsule">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </backgroundConfiguration>
@@ -1433,6 +1389,7 @@ service.</string>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
+                                                    <action selector="applySinButtonTapped:" destination="8Xa-ND-BZl" eventType="touchUpInside" id="z5V-7t-xnq"/>
                                                     <action selector="loginButtonTapped:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="lSE-8y-tPA"/>
                                                 </connections>
                                             </button>
@@ -1744,15 +1701,100 @@ service.</string>
             </objects>
             <point key="canvasLocation" x="10080" y="672.51184834123217"/>
         </scene>
+        <!--Tutorial Handler-->
+        <scene sceneID="1Zf-gd-GWU">
+            <objects>
+                <viewController storyboardIdentifier="bankingInformation" id="lCp-1M-lLZ" customClass="tutorialHandler" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5ov-Rv-yah">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dW-Tx-wUi">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BankingIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Oo1-2N-YVE">
+                                        <rect key="frame" x="75" y="132" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OW9-cM-OWE">
+                                        <rect key="frame" x="29" y="363" width="350" height="158"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">New immigrants to Canada need banking services to manage their finances and settle into their new life. This includes opening a bank account to receive income, access to ATMs and debit cards for everyday transactions, and options for transferring funds from their home country. </string>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pe-6a-tgt">
+                                        <rect key="frame" x="29" y="529" width="350" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Establishing a relationship with a Canadian bank can also help in building a credit history, which is important for future financial needs like obtaining a loan or renting an apartment.</string>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhG-DN-mNQ">
+                                        <rect key="frame" x="45" y="677" width="300" height="55"/>
+                                        <color key="backgroundColor" red="1" green="0.52941176469999995" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="g0T-11-bpx"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="mcC-l3-8ha"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Apply" cornerStyle="capsule">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="16"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="29"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="applyIDButtonTapped:" destination="5Je-3D-FdJ" eventType="touchUpInside" id="vHf-LL-cFX"/>
+                                            <action selector="applySinButtonTapped:" destination="8Xa-ND-BZl" eventType="touchUpInside" id="D8l-Ud-aiO"/>
+                                            <action selector="loginButtonTapped:" destination="sG2-7H-Kx7" eventType="touchUpInside" id="rqg-ZP-qpx"/>
+                                            <action selector="showNearByBanksTapped:" destination="lCp-1M-lLZ" eventType="touchUpInside" id="M2j-q4-vJO"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Banking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mks-kj-aEq">
+                                        <rect key="frame" x="39" y="275" width="312" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="312" id="Vxg-RA-TF7"/>
+                                            <constraint firstAttribute="height" constant="80" id="aif-3O-t7C"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kki-sA-U2v"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ntY-sc-aNS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4608" y="4881"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xAu-ti-s3T"/>
+        <segue reference="9uD-41-TtM"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Banking" width="1920" height="1920"/>
+        <image name="BankingIcon" width="100" height="100"/>
+        <image name="DLIcon" width="100" height="100"/>
         <image name="EndTour" width="200" height="200"/>
         <image name="HomeIcon" width="18" height="19"/>
+        <image name="HospitalIcon" width="96" height="96"/>
         <image name="Housing" width="150" height="150"/>
+        <image name="IDIcon" width="80" height="80"/>
         <image name="Jobs 1" width="150" height="150"/>
         <image name="LaunchLogo" width="242" height="277"/>
         <image name="LoginSignupPageImage" width="537" height="464"/>
@@ -1762,12 +1804,9 @@ service.</string>
         <image name="SinDocument" width="100" height="100"/>
         <image name="Welcome" width="328" height="252"/>
         <image name="WelcomeTour2" width="250" height="250"/>
-        <image name="driver's license" width="1920" height="1356"/>
         <image name="friends" width="29" height="19"/>
-        <image name="goveronmentId" width="5556" height="5556"/>
         <image name="myprofilePic" width="800" height="800"/>
         <image name="profilePic" width="51" height="51"/>
-        <image name="vecteezy_medical-center-hospital-building-vector-design_" width="1920" height="1920"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

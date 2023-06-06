@@ -245,6 +245,7 @@
 		04BE9CCD29567FEB0079FBA3 = {
 			isa = PBXGroup;
 			children = (
+				7ABA47A72A2D3D5100299E17 /* Jobs */,
 				7A01250029FA4A480029458A /* PickerSelection */,
 				04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */,
 				0458E3ED29F9F161001CC83B /* CreatingAJobPost */,
@@ -271,10 +272,6 @@
 			children = (
 				04DD743B29ED0A0E0044CF13 /* ImmiCan.entitlements */,
 				044B1C9E29F3982F007FB9D0 /* ProfileData */,
-				044B1C9929F26834007FB9D0 /* FinalJobSubmissionPage */,
-				04DD743329E7BE540044CF13 /* ApplyingToJob */,
-				0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */,
-				0425855C29C3F8320084E657 /* jobPage */,
 				7A9CAC2E29DBC9EC00643E9F /* MarketPlace */,
 				04AEF75C29A7276200076378 /* Data */,
 				FB721F9D29BAF09C00EEA377 /* Friends */,
@@ -298,9 +295,6 @@
 				7A90ECBC2A29A04900BA70A3 /* WelcomeTour */,
 				7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */,
 				7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */,
-				7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */,
-				7AF99B9529E6978A00B7692A /* CreateListingVC.swift */,
-				7AF99B9729E922B200B7692A /* AddImageCell.swift */,
 				7A51291B29F380EB001D532C /* MenuVC.swift */,
 				7A51291D29F3A326001D532C /* ChatVC.swift */,
 				7A51291F29F3AF97001D532C /* Message.swift */,
@@ -337,10 +331,24 @@
 		7A9CAC2E29DBC9EC00643E9F /* MarketPlace */ = {
 			isa = PBXGroup;
 			children = (
+				7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */,
+				7AF99B9529E6978A00B7692A /* CreateListingVC.swift */,
+				7AF99B9729E922B200B7692A /* AddImageCell.swift */,
 				7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */,
 				7A9CAC3529DE7E0500643E9F /* MarketPlaceCell.swift */,
 			);
 			path = MarketPlace;
+			sourceTree = "<group>";
+		};
+		7ABA47A72A2D3D5100299E17 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				044B1C9929F26834007FB9D0 /* FinalJobSubmissionPage */,
+				04DD743329E7BE540044CF13 /* ApplyingToJob */,
+				0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */,
+				0425855C29C3F8320084E657 /* jobPage */,
+			);
+			path = Jobs;
 			sourceTree = "<group>";
 		};
 		FB0648FC29EE103E00F5CA21 /* Chat  */ = {

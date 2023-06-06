@@ -14,10 +14,7 @@ class tutorialHandler: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-   
-         
-        
+
         chooseYourProvince?.layer.masksToBounds = false
         
         chooseYourProvince?.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
@@ -28,10 +25,7 @@ class tutorialHandler: UIViewController{
         chooseYourProvince?.layer.borderColor = CGColor(red: 0, green: 0, blue: 0, alpha: 1)
         chooseYourProvince?.layer.borderWidth = 0.5
         chooseYourProvince?.setTitle("Select Province", for: .normal)
-        
-        
-        
-        
+    
     }
     
     @IBAction func selectProvinceTapped(_ sender: UIButton) {
@@ -45,7 +39,6 @@ class tutorialHandler: UIViewController{
               UIApplication.shared.open(url)
           }
     }
-    
 
     @IBAction func applyIDButtonTapped(_ sender: UIButton) {
         
