@@ -59,14 +59,9 @@ class AddImageCell: UICollectionViewCell {
         }
         
     
-    func updateView(
-        
-        image : UIImage?
-        
-    )
-    
-    {
+    func updateView(image : UIImage?) {
      imageView.image = image
+        
     }
     
 }

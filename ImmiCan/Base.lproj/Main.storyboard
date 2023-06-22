@@ -17,20 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="VAb-0N-IQH">
-                                <rect key="frame" x="6" y="50" width="378" height="740"/>
+                                <rect key="frame" x="6" y="50" width="378" height="617.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="-40" translatesAutoresizingMaskIntoConstraints="NO" id="obr-7S-5y7">
-                                        <rect key="frame" x="14" y="0.0" width="350" height="444"/>
+                                        <rect key="frame" x="14" y="0.0" width="350" height="321.33333333333331"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="LoginSignupPageImage" translatesAutoresizingMaskIntoConstraints="NO" id="aet-sE-TqW">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="454"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="331.33333333333331"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="350" id="cn0-ji-abG"/>
                                                     <constraint firstAttribute="height" constant="350" id="etS-jg-JUy"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your go to Guide!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71m-4S-iMI">
-                                                <rect key="frame" x="75" y="414" width="200" height="30"/>
+                                                <rect key="frame" x="75" y="291.33333333333331" width="200" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="B64-dm-Srk"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="FEH-rD-L0g"/>
@@ -42,7 +42,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-gT-kRc">
-                                        <rect key="frame" x="89" y="472" width="200" height="32"/>
+                                        <rect key="frame" x="89" y="349.33333333333331" width="200" height="32"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When you need the most!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bva-Sq-LPY">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="16"/>
@@ -63,7 +63,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WDz-qf-NXZ">
-                                        <rect key="frame" x="21.666666666666657" y="532" width="335" height="120"/>
+                                        <rect key="frame" x="21.666666666666657" y="409.33333333333331" width="335" height="119.99999999999994"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSw-Sq-x8z">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="55"/>
@@ -116,7 +116,7 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNK-0C-nak">
-                                        <rect key="frame" x="129" y="680" width="120" height="60"/>
+                                        <rect key="frame" x="129" y="557.33333333333337" width="120" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="9CP-to-bqr"/>
                                             <constraint firstAttribute="height" constant="60" id="vBx-Lp-h9Y"/>
@@ -430,7 +430,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iW7-9b-4Vh">
-                                <rect key="frame" x="-22" y="341" width="388" height="162"/>
+                                <rect key="frame" x="-23" y="341" width="388" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -488,7 +488,7 @@
         <scene sceneID="CBe-wL-z1x">
             <objects>
                 <viewController id="4gD-8u-9hh" customClass="createAccountViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="G8M-jV-poO">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="G8M-jV-poO">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -875,7 +875,7 @@ the following list</string>
             <objects>
                 <viewController id="wiR-LO-JWR" customClass="jobPageInitialViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w0w-7W-6Xr">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="7GY-oM-VVa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -884,7 +884,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kYn-l4-Yad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11167.692307692307" y="674.64454976303318"/>
+            <point key="canvasLocation" x="9037" y="2442"/>
         </scene>
         <!--Detailed Job Page View Controller-->
         <scene sceneID="o2C-oX-9Tz">
@@ -899,7 +899,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdq-ZQ-Mk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11873.846153846154" y="674.64454976303318"/>
+            <point key="canvasLocation" x="9872" y="2442"/>
         </scene>
         <!--Applying To Job View Elements-->
         <scene sceneID="zk6-uH-fbi">
@@ -914,7 +914,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LF9-Es-d7V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12623.076923076922" y="676.77725118483409"/>
+            <point key="canvasLocation" x="10637" y="2442"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="lMp-Kz-ppo">
@@ -952,7 +952,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1B-r6-pj3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11710.76923076923" y="1390.5213270142178"/>
+            <point key="canvasLocation" x="10960" y="673"/>
         </scene>
         <!--Final Job Submission-->
         <scene sceneID="H0S-uX-iDP">
@@ -967,7 +967,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jaK-GY-E5s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13410.76923076923" y="685.30805687203792"/>
+            <point key="canvasLocation" x="11409" y="2442"/>
         </scene>
         <!--Job First Page-->
         <scene sceneID="0n1-ha-3Di">
@@ -982,7 +982,7 @@ the following list</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wTt-pI-Mmx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14235" y="686"/>
+            <point key="canvasLocation" x="12166" y="2442"/>
         </scene>
         <!--Tutorial Handler-->
         <scene sceneID="Ygx-OT-5v1">
@@ -1283,22 +1283,6 @@ Accepted as ID for domestic travel.
             </objects>
             <point key="canvasLocation" x="4607.6923076923076" y="3536.7298578199052"/>
         </scene>
-        <!--Connections-->
-        <scene sceneID="vWI-Xi-AKx">
-            <objects>
-                <viewController id="zVU-I1-c7X" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aEE-yV-irG">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="JyT-P3-0lo"/>
-                        <color key="backgroundColor" systemColor="systemMintColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Connections" id="3j0-Dx-JNS"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aAf-y4-Gbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="10080" y="3200"/>
-        </scene>
         <!--Tutorial Handler-->
         <scene sceneID="RyL-sT-F4D">
             <objects>
@@ -1447,23 +1431,6 @@ Accepted as ID for domestic travel.
             </objects>
             <point key="canvasLocation" x="6717" y="1455"/>
         </scene>
-        <!--Connections-->
-        <scene sceneID="aTh-N8-Mip">
-            <objects>
-                <navigationController id="Oes-ns-3ba" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Connections" image="friends" id="Ekd-Nk-Id0"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Y7-mT-JT1">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="zVU-I1-c7X" kind="relationship" relationship="rootViewController" id="zSP-Ci-y78"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tZN-l9-LF5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="10080" y="2446"/>
-        </scene>
         <!--Home-->
         <scene sceneID="dVn-SF-IOJ">
             <objects>
@@ -1496,7 +1463,7 @@ Accepted as ID for domestic travel.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eAu-RC-cDy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7652" y="2185"/>
+            <point key="canvasLocation" x="5971" y="2185"/>
         </scene>
         <!--Home-->
         <scene sceneID="4Wf-PV-1bn">
@@ -1507,7 +1474,7 @@ Accepted as ID for domestic travel.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mc5-VB-9GL">
-                                <rect key="frame" x="20" y="651" width="350" height="55"/>
+                                <rect key="frame" x="20" y="590" width="350" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ask me anything ?">
@@ -1516,7 +1483,7 @@ Accepted as ID for domestic travel.
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAW-3Z-ghG">
-                                <rect key="frame" x="16" y="108" width="358" height="57"/>
+                                <rect key="frame" x="24" y="108" width="350" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="profilePic" imagePlacement="leading" title="Alexander Valley" imagePadding="30">
@@ -1527,41 +1494,89 @@ Accepted as ID for domestic travel.
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="powered by AI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vXg-2a-mcX">
-                                <rect key="frame" x="156" y="689" width="78" height="45"/>
+                                <rect key="frame" x="156" y="632" width="78" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zet-42-Hmy">
-                                <rect key="frame" x="29" y="431" width="150" height="150"/>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2d0-BV-893">
+                                <rect key="frame" x="27" y="282" width="160" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="MarketplaceIcon"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gH9-yW-1u6">
-                                <rect key="frame" x="220" y="273" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="Jobs 1"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="5" height="5"/>
+                                <state key="normal" title="Checklist" image="TickIcon">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" image="TickIcon" title="Checklist" imagePadding="11">
+                                    <backgroundConfiguration key="background" cornerRadius="10">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="RBz-bQ-CJD" kind="presentation" id="7kX-fI-aG5"/>
+                                    <segue destination="qbD-R1-cGc" kind="push" id="FMX-Sh-11K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYy-ZE-1f3">
-                                <rect key="frame" x="224" y="431" width="150" height="150"/>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWl-as-Oh2">
+                                <rect key="frame" x="205" y="282" width="160" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="Housing"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Checklist" image="TickIcon">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" image="MarketplaceIcon1" title="Marketplace" imagePadding="11">
+                                    <backgroundConfiguration key="background" cornerRadius="10">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2Jd-kr-rkM" kind="presentation" id="3VW-xe-h9U"/>
+                                    <action selector="buttonPressed:" destination="zis-VN-AvL" eventType="touchUpInside" id="XjJ-lB-OAw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkv-x9-BTe">
-                                <rect key="frame" x="33" y="273" width="179" height="226"/>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ef7-io-QFN">
+                                <rect key="frame" x="27" y="397" width="160" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="WelcomeTour2"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Checklist" image="TickIcon">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" image="HousingIcon1" title="Housing" imagePadding="11">
+                                    <backgroundConfiguration key="background" cornerRadius="10">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="small"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2Jd-kr-rkM" kind="modal" modalPresentationStyle="fullScreen" id="jPY-hV-h8N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmo-V2-pnN">
+                                <rect key="frame" x="205" y="397" width="160" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Checklist" image="TickIcon">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" image="JobsIcon1" title="   Jobs" imagePadding="12">
+                                    <backgroundConfiguration key="background" cornerRadius="10">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="RBz-bQ-CJD" kind="modal" modalPresentationStyle="fullScreen" id="6HT-aV-Xyv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vxK-L4-RVO"/>
@@ -1571,14 +1586,14 @@ Accepted as ID for domestic travel.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2jA-O4-Udu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6716.9230769230771" y="2877.7251184834122"/>
+            <point key="canvasLocation" x="6717" y="2878"/>
         </scene>
         <!--Housing View Controller-->
         <scene sceneID="xZP-Jm-vtq">
             <objects>
                 <viewController id="Nag-Ih-IPu" customClass="HousingViewController" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rZt-pd-Lvo">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Kqs-GE-Bsc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1587,7 +1602,7 @@ Accepted as ID for domestic travel.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kuy-VT-KoR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7290.7692307692305" y="3591.4691943127959"/>
+            <point key="canvasLocation" x="9037" y="3188"/>
         </scene>
         <!--Image Cell-->
         <scene sceneID="FBU-Mc-lLS">
@@ -1602,7 +1617,7 @@ Accepted as ID for domestic travel.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jBb-7q-XwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8091" y="3591"/>
+            <point key="canvasLocation" x="9871" y="3188"/>
         </scene>
         <!--Profile-->
         <scene sceneID="zIR-DC-6u4">
@@ -1643,7 +1658,7 @@ Accepted as ID for domestic travel.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhb-4e-M8d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7651" y="2893"/>
+            <point key="canvasLocation" x="5971" y="2878"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="W2Z-uK-gPG">
@@ -1652,7 +1667,7 @@ Accepted as ID for domestic travel.
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="BZJ-42-ons"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0WH-hh-Seb">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="56"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1662,7 +1677,137 @@ Accepted as ID for domestic travel.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yh6-wQ-9df" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8848" y="2199"/>
+            <point key="canvasLocation" x="7903" y="2442"/>
+        </scene>
+        <!--Checklist-->
+        <scene sceneID="RpH-YM-mTx">
+            <objects>
+                <navigationController id="qbD-R1-cGc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Checklist" id="fMI-eo-MTk"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RJ4-Op-qzg">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JPo-RG-kr5" kind="relationship" relationship="rootViewController" id="Bnr-rG-US4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhm-Tz-muf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6717" y="3588"/>
+        </scene>
+        <!--ChecklistVC-->
+        <scene sceneID="u0e-nJ-vkZ">
+            <objects>
+                <viewController id="JPo-RG-kr5" customClass="ChecklistVC" customModule="ImmiCan" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yU1-dN-yZL">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="n0d-g7-VGe">
+                                <rect key="frame" x="24" y="165" width="350" height="452"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbC-p0-1pd">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="V0v-4g-unA"/>
+                                            <constraint firstAttribute="height" constant="80" id="XpA-N1-ktM"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Social Insurance Number" titleAlignment="center">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="SinMenuSelectionTapped:" destination="JPo-RG-kr5" eventType="touchUpInside" id="JRR-e9-4Rz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJ0-Cm-6Mv">
+                                        <rect key="frame" x="0.0" y="93" width="350" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="Nzh-GM-GLl"/>
+                                            <constraint firstAttribute="height" constant="80" id="lqC-X9-oXv"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Provincial Identification">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="IDMenuSelectionTapped:" destination="JPo-RG-kr5" eventType="touchUpInside" id="T75-3Z-vhE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTy-Pw-nld">
+                                        <rect key="frame" x="0.0" y="186" width="350" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="W9G-up-ENq"/>
+                                            <constraint firstAttribute="width" constant="350" id="w7z-xy-Twf"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Driver's License">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="DLMenuSelectionTapped:" destination="JPo-RG-kr5" eventType="touchUpInside" id="Ssg-NY-IvQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8u-vH-kcJ">
+                                        <rect key="frame" x="0.0" y="279" width="350" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="crH-BO-kc8"/>
+                                            <constraint firstAttribute="height" constant="80" id="iX1-sm-pFd"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Health Card">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="HealthCardMenuSelectionTapped:" destination="JPo-RG-kr5" eventType="touchUpInside" id="v2U-9N-95m"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vv2-EU-SV8">
+                                        <rect key="frame" x="0.0" y="372" width="350" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="11Z-6Y-Via"/>
+                                            <constraint firstAttribute="height" constant="80" id="u8v-I8-6ct"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Banking" titleAlignment="leading">
+                                            <backgroundConfiguration key="background">
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </backgroundConfiguration>
+                                            <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="BankingMenuSelectionTapped:" destination="JPo-RG-kr5" eventType="touchUpInside" id="igZ-ve-B23"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5bk-eO-8ky"/>
+                        <color key="backgroundColor" red="0.93725490570000003" green="0.55294120309999995" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nMN-1g-cTo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shs-qb-anx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6717" y="4295"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cKp-Y4-wrJ">
@@ -1671,7 +1816,7 @@ Accepted as ID for domestic travel.
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="tVV-eM-j2T"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="y1E-Cm-548">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="56"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1681,7 +1826,7 @@ Accepted as ID for domestic travel.
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8XO-y1-qsX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6240" y="3591"/>
+            <point key="canvasLocation" x="7902" y="3189"/>
         </scene>
         <!--Tvc-->
         <scene sceneID="NN7-Ng-Mqk">
@@ -1807,18 +1952,17 @@ Accepted as ID for domestic travel.
         <image name="DLIcon" width="100" height="100"/>
         <image name="HomeIcon" width="18" height="19"/>
         <image name="HospitalIcon" width="96" height="96"/>
-        <image name="Housing" width="150" height="150"/>
+        <image name="HousingIcon1" width="35" height="35"/>
         <image name="IDIcon" width="80" height="80"/>
-        <image name="Jobs 1" width="150" height="150"/>
+        <image name="JobsIcon1" width="35" height="35"/>
         <image name="LaunchLogo" width="242" height="277"/>
         <image name="LoginSignupPageImage" width="537" height="464"/>
         <image name="Logo" width="242" height="277"/>
-        <image name="MarketplaceIcon" width="150" height="150"/>
+        <image name="MarketplaceIcon1" width="28" height="28"/>
         <image name="Profile" width="18" height="20"/>
         <image name="SinDocument" width="100" height="100"/>
+        <image name="TickIcon" width="44" height="44"/>
         <image name="Welcome" width="328" height="252"/>
-        <image name="WelcomeTour2" width="250" height="250"/>
-        <image name="friends" width="29" height="19"/>
         <image name="myprofilePic" width="800" height="800"/>
         <image name="profilePic" width="51" height="51"/>
         <systemColor name="labelColor">
@@ -1841,9 +1985,6 @@ Accepted as ID for domestic travel.
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

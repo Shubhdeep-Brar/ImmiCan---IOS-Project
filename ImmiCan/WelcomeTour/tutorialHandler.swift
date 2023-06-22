@@ -186,7 +186,6 @@ class tutorialHandler: UIViewController{
             default:
                 print("No Province Selected")
             }
-            
         }
     }
     
