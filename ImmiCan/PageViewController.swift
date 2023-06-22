@@ -39,7 +39,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         let page1: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "welcomePage")
         let page2: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "sinNumber")
         let page3: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "provincialId")
-        let page4: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "driversLicense")
+        let page4: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "DriversLicense2")
         let page5: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "healthCare")
         let page6: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "bankingInformation")
 //        let page7: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "endTour")
