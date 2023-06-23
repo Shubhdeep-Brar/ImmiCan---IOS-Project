@@ -11,6 +11,23 @@ import UIKit
 class PageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     
     var pages = [UIViewController]()
+    var tabBarPage = TabBarController()
+    
+    
+    @IBAction func pressedSkipButton(_ sender: UIBarButtonItem) {
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+       // self.navigationController?.pushViewController(vc, animated: true)
+       // self.navigationController?.push(vc, animated: true)
+       // self.tabBarControl
+        //self.present(TabBarController(), animated: true, completion: nil)
+        //self.present(TabBarController(), animated: true)
+       performSegue(withIdentifier: "goToTabBar", sender: sender)
+    
+        
+    }
+    
+   
     
     
     override func viewDidLoad() {
@@ -22,9 +39,14 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         let page1: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "welcomePage")
         let page2: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "sinNumber")
         let page3: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "provincialId")
-        let page4: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "driversLicense")
+        let page4: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "DriversLicense2")
         let page5: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "healthCare")
         let page6: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "bankingInformation")
+<<<<<<< HEAD
+//        let page7: UIViewController! = storyboard?.instantiateViewController(withIdentifier: "endTour")
+=======
+        
+>>>>>>> profilepage
         
         
         pages.append(page1)
@@ -33,6 +55,11 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         pages.append(page4)
         pages.append(page5)
         pages.append(page6)
+<<<<<<< HEAD
+        //pages.append(page7)
+=======
+        
+>>>>>>> profilepage
         
         setViewControllers([page1], direction: UIPageViewController.NavigationDirection.forward, animated: false)
         // Do any additional setup after loading the view, typically from a nib.
@@ -69,34 +96,30 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
     }
     
     override func viewDidLayoutSubviews() {
-            super.viewDidLayoutSubviews()
-
+        super.viewDidLayoutSubviews()
+        
         var subViews: NSArray = view.subviews as NSArray
-            var scrollView: UIScrollView? = nil
-            var pageControl: UIPageControl? = nil
-
-            for view in subViews {
-                if (view as AnyObject).isKind(of: UIScrollView.self) {
-                    scrollView = view as? UIScrollView
-                }
-                else if (view as AnyObject).isKind(of: UIPageControl.self) {
-                    pageControl = view as? UIPageControl
-                }
+        var scrollView: UIScrollView? = nil
+        var pageControl: UIPageControl? = nil
+        
+        for view in subViews {
+            if (view as AnyObject).isKind(of: UIScrollView.self) {
+                scrollView = view as? UIScrollView
             }
-
-            if (scrollView != nil && pageControl != nil) {
-                scrollView?.frame = view.bounds
-                view.bringSubviewToFront(pageControl!)
+            else if (view as AnyObject).isKind(of: UIPageControl.self) {
+                pageControl = view as? UIPageControl
             }
         }
-   
+        
+        if (scrollView != nil && pageControl != nil) {
+            scrollView?.frame = view.bounds
+            view.bringSubviewToFront(pageControl!)
+        }
+    }
+    
 }
 
-<<<<<<< HEAD
-
-=======
 //<<<<<<< HEAD
->>>>>>> Feature/Housing
 //import Foundation
 //import UIKit
 //
@@ -187,16 +210,8 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
 //        return true
 //    }
 //}
-<<<<<<< HEAD
-
-//COMMENT
-//comment
-//Final merge
-
-=======
 //=======
 ////COMMENT
 ////comment
 ////Final merge
 //>>>>>>> parent of b68e042 (Status Drop Down Resolved)
->>>>>>> Feature/Housing

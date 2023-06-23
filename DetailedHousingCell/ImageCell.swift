@@ -78,7 +78,7 @@ class ImageCell: UIViewController {
             let pageControl = UIPageControl()
             pageControl.translatesAutoresizingMaskIntoConstraints = false
         pageControl.backgroundColor = .black
-        pageControl.addTarget(self, action: #selector(pageControlTapHandler(sender:)), for: .allEvents)
+        pageControl.addTarget(ImageCell.self, action: #selector(pageControlTapHandler(sender:)), for: .allEvents)
         //pageControl.numberOfPages = houseImageViews.count
         pageControl.numberOfPages = 3
         pageControl.currentPage = 0

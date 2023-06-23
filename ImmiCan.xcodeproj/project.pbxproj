@@ -89,6 +89,7 @@
 		FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */; };
 		FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */; };
 		FB9A4A8D29EF696E004E76A5 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A8C29EF696E004E76A5 /* MessageKit */; };
+		FBE5D9922A32DC8A0096C38A /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE5D9912A32DC8A0096C38A /* EditProfile.swift */; };
 		FBEE0FFC29F89F4200581935 /* SellHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFB29F89F4200581935 /* SellHouse.swift */; };
 		FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */; };
 		FBF25F1529DBB82000E111B9 /* HousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1229DBB82000E111B9 /* HousingCell.swift */; };
@@ -175,6 +176,7 @@
 		FB9A4A8429EF5BDC004E76A5 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		FBE5D9912A32DC8A0096C38A /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 		FBEE0FFB29F89F4200581935 /* SellHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellHouse.swift; sourceTree = "<group>"; };
 		FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImagesHousing.swift; sourceTree = "<group>"; };
 		FBF25F1229DBB82000E111B9 /* HousingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingCell.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 				04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */,
 				04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */,
 				04BE9CDD29567FEB0079FBA3 /* LoginSignUpVC.swift */,
+				FBE5D9912A32DC8A0096C38A /* EditProfile.swift */,
 				04BE9CDF29567FEB0079FBA3 /* Main.storyboard */,
 				7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */,
 				049051B0296A771400FCF4E3 /* createAccountViewController.swift */,
@@ -571,6 +574,8 @@
 				7A01250429FAFB9F0029458A /* MarketPlaceSelectionVC.swift in Sources */,
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				FBF25F1B29DBB86E00E111B9 /* HouseUser.swift in Sources */,
+				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
+				FBE5D9922A32DC8A0096C38A /* EditProfile.swift in Sources */,
 				FB9A4A8529EF5BDC004E76A5 /* Chat.swift in Sources */,
 				FBF25F1729DBB82000E111B9 /* IntroductoryHousingCell.swift in Sources */,
 				FBF25F1D29DBB8C700E111B9 /* HousingViewController.swift in Sources */,

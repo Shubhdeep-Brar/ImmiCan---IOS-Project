@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041B5E682A35CA5300F2AD3C /* FacebookLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B5E672A35CA5300F2AD3C /* FacebookLogin.swift */; };
+		041B5E6A2A35CA6700F2AD3C /* GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041B5E692A35CA6700F2AD3C /* GoogleLogin.swift */; };
 		0425855E29C3F8500084E657 /* IntroductoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425855D29C3F8500084E657 /* IntroductoryCell.swift */; };
 		044304632A00AACA00D0E7CE /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 044304622A00AACA00D0E7CE /* FacebookLogin */; };
+		0449DF832A32DACD00B52B06 /* profileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF822A32DACD00B52B06 /* profileData.swift */; };
+		0449DF852A32DAEA00B52B06 /* profileData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF842A32DAEA00B52B06 /* profileData2.swift */; };
+		0449DF872A32DAFC00B52B06 /* profileDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF862A32DAFC00B52B06 /* profileDataCell.swift */; };
+		0449DF892A32DB0B00B52B06 /* profileDataCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF882A32DB0B00B52B06 /* profileDataCell2.swift */; };
+		0449DF8B2A32DB1C00B52B06 /* profileDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF8A2A32DB1C00B52B06 /* profileDataProvider.swift */; };
+		0449DF8D2A32DB3100B52B06 /* profileDataProvider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF8C2A32DB3100B52B06 /* profileDataProvider2.swift */; };
+		0449DF8F2A32DB4F00B52B06 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449DF8E2A32DB4F00B52B06 /* ProfileVC.swift */; };
 		044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ABC7229AEEC030070B334 /* selectingDocument.swift */; };
 		044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044ABC7429AEF2190070B334 /* DatePicker.swift */; };
 		044B1C9629F24DE1007FB9D0 /* JobApplicationStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */; };
 		044B1C9829F26824007FB9D0 /* FinalJobSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B1C9729F26824007FB9D0 /* FinalJobSubmission.swift */; };
-		044B1C9F29F3982F007FB9D0 /* ProfileData in Resources */ = {isa = PBXBuildFile; fileRef = 044B1C9E29F3982F007FB9D0 /* ProfileData */; };
+		0454091B2A1B003200FC145E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0454091A2A1B003200FC145E /* GoogleService-Info.plist */; };
 		0458E3EC29F8E5C5001CC83B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3EB29F8E5C5001CC83B /* TabBarController.swift */; };
 		0458E3EF29F9F193001CC83B /* CreateAJobPostStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */; };
 		0458E3F229FA0437001CC83B /* JobFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0458E3F129FA0437001CC83B /* JobFirstPage.swift */; };
@@ -27,17 +36,19 @@
 		047F55C629C652B200CAD8B7 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F55C529C652B200CAD8B7 /* JobCell.swift */; };
 		047F55C829C6E55C00CAD8B7 /* NameAndAvatarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F55C729C6E55C00CAD8B7 /* NameAndAvatarData.swift */; };
 		04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04904B43295E955700E8750B /* forgetPassViewcontroller.swift */; };
-		049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049051AE296A752300FCF4E3 /* loginViewController.swift */; };
+		049051AF296A752300FCF4E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049051AE296A752300FCF4E3 /* LoginViewController.swift */; };
 		049051B1296A771400FCF4E3 /* createAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049051B0296A771400FCF4E3 /* createAccountViewController.swift */; };
+		0496FA1F2A0DF94A00D09319 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 0496FA1E2A0DF94A00D09319 /* GoogleSignIn */; };
 		04A9F9C829DE55FC005F387A /* SingleJobPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9F9C729DE55FC005F387A /* SingleJobPage.swift */; };
 		04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF75D29A7278000076378 /* ImmigrationDocumentData.swift */; };
-		04BE813E296EAB6100E86ABB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */; };
 		04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */; };
 		04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */; };
-		04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE9CDD29567FEB0079FBA3 /* ViewController.swift */; };
+		04BE9CDE29567FEB0079FBA3 /* LoginSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE9CDD29567FEB0079FBA3 /* LoginSignUpVC.swift */; };
 		04BE9CE129567FEB0079FBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CDF29567FEB0079FBA3 /* Main.storyboard */; };
 		04BE9CE329567FEC0079FBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE229567FEC0079FBA3 /* Assets.xcassets */; };
 		04BE9CE629567FEC0079FBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE9CE429567FEC0079FBA3 /* LaunchScreen.storyboard */; };
+		04CB9CD32A36E1F90039890C /* internalLoginFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB9CD22A36E1F90039890C /* internalLoginFirebase.swift */; };
+		04CB9CD52A36EE110039890C /* LoginInUIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB9CD42A36EE110039890C /* LoginInUIElements.swift */; };
 		04D91D192A00B47C00AD4E0D /* FacebookLoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */; };
 		04DD743729E7C1AC0044CF13 /* ApplyingToJobViewElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */; };
 		7A01250229FA4AC60029458A /* provinceSelectedByUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A01250129FA4AC60029458A /* provinceSelectedByUser.swift */; };
@@ -58,7 +69,6 @@
 		7AF42A5629EA729900E3CA31 /* ListingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF42A5529EA729900E3CA31 /* ListingData.swift */; };
 		7AF99B9629E6978A00B7692A /* CreateListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF99B9529E6978A00B7692A /* CreateListingVC.swift */; };
 		7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF99B9729E922B200B7692A /* AddImageCell.swift */; };
-		7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */; };
 		7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */; };
 		FB0648F929E6576D00F5CA21 /* tvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0648F829E6576D00F5CA21 /* tvc.swift */; };
 		FB06490029EE118600F5CA21 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0648FF29EE118600F5CA21 /* ImageCell.swift */; };
@@ -70,8 +80,6 @@
 		FB721FA529BAF24A00EEA377 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB721FA429BAF24A00EEA377 /* FriendCell.swift */; };
 		FB8DB7B829EF8F9A008B4DCC /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FB8DB7B729EF8F9A008B4DCC /* SDWebImage */; };
 		FB8DB7BA29EF8F9A008B4DCC /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB8DB7B929EF8F9A008B4DCC /* SDWebImageMapKit */; };
-		FB99C21F29F0C1D000E7BCEC /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = FB99C21E29F0C1D000E7BCEC /* GoogleSignIn */; };
-		FB99C22129F0C1D000E7BCEC /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB99C22029F0C1D000E7BCEC /* GoogleSignInSwift */; };
 		FB9A4A7829EF5A09004E76A5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7729EF5A09004E76A5 /* FirebaseAnalytics */; };
 		FB9A4A7A29EF5A09004E76A5 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7929EF5A09004E76A5 /* FirebaseAnalyticsSwift */; };
 		FB9A4A7C29EF5A09004E76A5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A7B29EF5A09004E76A5 /* FirebaseFirestore */; };
@@ -81,6 +89,7 @@
 		FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */; };
 		FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */; };
 		FB9A4A8D29EF696E004E76A5 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = FB9A4A8C29EF696E004E76A5 /* MessageKit */; };
+		FBE5D9922A32DC8A0096C38A /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE5D9912A32DC8A0096C38A /* EditProfile.swift */; };
 		FBEE0FFC29F89F4200581935 /* SellHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFB29F89F4200581935 /* SellHouse.swift */; };
 		FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */; };
 		FBF25F1529DBB82000E111B9 /* HousingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF25F1229DBB82000E111B9 /* HousingCell.swift */; };
@@ -91,12 +100,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041B5E672A35CA5300F2AD3C /* FacebookLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLogin.swift; sourceTree = "<group>"; };
+		041B5E692A35CA6700F2AD3C /* GoogleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleLogin.swift; sourceTree = "<group>"; };
 		0425855D29C3F8500084E657 /* IntroductoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductoryCell.swift; sourceTree = "<group>"; };
+		0449DF822A32DACD00B52B06 /* profileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileData.swift; sourceTree = "<group>"; };
+		0449DF842A32DAEA00B52B06 /* profileData2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileData2.swift; sourceTree = "<group>"; };
+		0449DF862A32DAFC00B52B06 /* profileDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDataCell.swift; sourceTree = "<group>"; };
+		0449DF882A32DB0B00B52B06 /* profileDataCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDataCell2.swift; sourceTree = "<group>"; };
+		0449DF8A2A32DB1C00B52B06 /* profileDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDataProvider.swift; sourceTree = "<group>"; };
+		0449DF8C2A32DB3100B52B06 /* profileDataProvider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDataProvider2.swift; sourceTree = "<group>"; };
+		0449DF8E2A32DB4F00B52B06 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		044ABC7229AEEC030070B334 /* selectingDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectingDocument.swift; sourceTree = "<group>"; };
 		044ABC7429AEF2190070B334 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
 		044B1C9529F24DE1007FB9D0 /* JobApplicationStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationStructure.swift; sourceTree = "<group>"; };
 		044B1C9729F26824007FB9D0 /* FinalJobSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalJobSubmission.swift; sourceTree = "<group>"; };
-		044B1C9E29F3982F007FB9D0 /* ProfileData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ProfileData; sourceTree = "<group>"; };
+		0454091A2A1B003200FC145E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0458E3EB29F8E5C5001CC83B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		0458E3EE29F9F193001CC83B /* CreateAJobPostStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAJobPostStructure.swift; sourceTree = "<group>"; };
 		0458E3F129FA0437001CC83B /* JobFirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFirstPage.swift; sourceTree = "<group>"; };
@@ -110,19 +128,20 @@
 		047F55C529C652B200CAD8B7 /* JobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
 		047F55C729C6E55C00CAD8B7 /* NameAndAvatarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndAvatarData.swift; sourceTree = "<group>"; };
 		04904B43295E955700E8750B /* forgetPassViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgetPassViewcontroller.swift; sourceTree = "<group>"; };
-		049051AE296A752300FCF4E3 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		049051AE296A752300FCF4E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		049051B0296A771400FCF4E3 /* createAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountViewController.swift; sourceTree = "<group>"; };
 		04A9F9C729DE55FC005F387A /* SingleJobPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleJobPage.swift; sourceTree = "<group>"; };
 		04AEF75D29A7278000076378 /* ImmigrationDocumentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationDocumentData.swift; sourceTree = "<group>"; };
-		04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04BE9CD629567FEB0079FBA3 /* ImmiCan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmiCan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04BE9CDD29567FEB0079FBA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04BE9CDD29567FEB0079FBA3 /* LoginSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpVC.swift; sourceTree = "<group>"; };
 		04BE9CE029567FEB0079FBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BE9CE229567FEC0079FBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BE9CE529567FEC0079FBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BE9CE729567FEC0079FBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB9CD22A36E1F90039890C /* internalLoginFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = internalLoginFirebase.swift; sourceTree = "<group>"; };
+		04CB9CD42A36EE110039890C /* LoginInUIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInUIElements.swift; sourceTree = "<group>"; };
 		04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginTest.swift; sourceTree = "<group>"; };
 		04DD743629E7C1AC0044CF13 /* ApplyingToJobViewElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingToJobViewElements.swift; sourceTree = "<group>"; };
 		04DD743B29ED0A0E0044CF13 /* ImmiCan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImmiCan.entitlements; sourceTree = "<group>"; };
@@ -144,7 +163,6 @@
 		7AF42A5529EA729900E3CA31 /* ListingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingData.swift; sourceTree = "<group>"; };
 		7AF99B9529E6978A00B7692A /* CreateListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListingVC.swift; sourceTree = "<group>"; };
 		7AF99B9729E922B200B7692A /* AddImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCell.swift; sourceTree = "<group>"; };
-		7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageProfileVC.swift; sourceTree = "<group>"; };
 		FB0648F829E6576D00F5CA21 /* tvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvc.swift; sourceTree = "<group>"; };
 		FB0648FF29EE118600F5CA21 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
@@ -158,6 +176,7 @@
 		FB9A4A8429EF5BDC004E76A5 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		FB9A4A8629EF5C3C004E76A5 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FB9A4A8929EF5D39004E76A5 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		FBE5D9912A32DC8A0096C38A /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
 		FBEE0FFB29F89F4200581935 /* SellHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellHouse.swift; sourceTree = "<group>"; };
 		FBEE0FFD29F8A0C000581935 /* AddImagesHousing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImagesHousing.swift; sourceTree = "<group>"; };
 		FBF25F1229DBB82000E111B9 /* HousingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousingCell.swift; sourceTree = "<group>"; };
@@ -173,21 +192,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				044304632A00AACA00D0E7CE /* FacebookLogin in Frameworks */,
-				FB99C22129F0C1D000E7BCEC /* GoogleSignInSwift in Frameworks */,
 				FB8DB7B829EF8F9A008B4DCC /* SDWebImage in Frameworks */,
-				FB99C21F29F0C1D000E7BCEC /* GoogleSignIn in Frameworks */,
 				FB9A4A7A29EF5A09004E76A5 /* FirebaseAnalyticsSwift in Frameworks */,
 				FB9A4A7829EF5A09004E76A5 /* FirebaseAnalytics in Frameworks */,
 				FB9A4A7C29EF5A09004E76A5 /* FirebaseFirestore in Frameworks */,
 				FB9A4A7F29EF5A87004E76A5 /* FirebaseAuth in Frameworks */,
 				FB8DB7BA29EF8F9A008B4DCC /* SDWebImageMapKit in Frameworks */,
 				FB9A4A8D29EF696E004E76A5 /* MessageKit in Frameworks */,
+				0496FA1F2A0DF94A00D09319 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041B5E662A35CA2900F2AD3C /* LoginSetUp */ = {
+			isa = PBXGroup;
+			children = (
+				049051AE296A752300FCF4E3 /* LoginViewController.swift */,
+				041B5E672A35CA5300F2AD3C /* FacebookLogin.swift */,
+				041B5E692A35CA6700F2AD3C /* GoogleLogin.swift */,
+				04CB9CD22A36E1F90039890C /* internalLoginFirebase.swift */,
+				04CB9CD42A36EE110039890C /* LoginInUIElements.swift */,
+			);
+			path = LoginSetUp;
+			sourceTree = "<group>";
+		};
 		0425855C29C3F8320084E657 /* jobPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +230,20 @@
 				047F55C729C6E55C00CAD8B7 /* NameAndAvatarData.swift */,
 			);
 			path = jobPage;
+			sourceTree = "<group>";
+		};
+		0449DF812A32DAB300B52B06 /* managingProfile */ = {
+			isa = PBXGroup;
+			children = (
+				0449DF822A32DACD00B52B06 /* profileData.swift */,
+				0449DF842A32DAEA00B52B06 /* profileData2.swift */,
+				0449DF862A32DAFC00B52B06 /* profileDataCell.swift */,
+				0449DF882A32DB0B00B52B06 /* profileDataCell2.swift */,
+				0449DF8A2A32DB1C00B52B06 /* profileDataProvider.swift */,
+				0449DF8E2A32DB4F00B52B06 /* ProfileVC.swift */,
+				0449DF8C2A32DB3100B52B06 /* profileDataProvider2.swift */,
+			);
+			path = managingProfile;
 			sourceTree = "<group>";
 		};
 		044B1C9929F26834007FB9D0 /* FinalJobSubmissionPage */ = {
@@ -247,6 +291,8 @@
 		04BE9CCD29567FEB0079FBA3 = {
 			isa = PBXGroup;
 			children = (
+				0449DF812A32DAB300B52B06 /* managingProfile */,
+				7ABA47A72A2D3D5100299E17 /* Jobs */,
 				7A01250029FA4A480029458A /* PickerSelection */,
 				04D91D182A00B47C00AD4E0D /* FacebookLoginTest.swift */,
 				0458E3ED29F9F161001CC83B /* CreatingAJobPost */,
@@ -272,11 +318,6 @@
 			isa = PBXGroup;
 			children = (
 				04DD743B29ED0A0E0044CF13 /* ImmiCan.entitlements */,
-				044B1C9E29F3982F007FB9D0 /* ProfileData */,
-				044B1C9929F26834007FB9D0 /* FinalJobSubmissionPage */,
-				04DD743329E7BE540044CF13 /* ApplyingToJob */,
-				0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */,
-				0425855C29C3F8320084E657 /* jobPage */,
 				7A9CAC2E29DBC9EC00643E9F /* MarketPlace */,
 				04AEF75C29A7276200076378 /* Data */,
 				FB721F9D29BAF09C00EEA377 /* Friends */,
@@ -284,25 +325,22 @@
 				7A01250329FAFB9F0029458A /* MarketPlaceSelectionVC.swift */,
 				04BE9CD929567FEB0079FBA3 /* AppDelegate.swift */,
 				04BE9CDB29567FEB0079FBA3 /* SceneDelegate.swift */,
-				04BE9CDD29567FEB0079FBA3 /* ViewController.swift */,
+				04BE9CDD29567FEB0079FBA3 /* LoginSignUpVC.swift */,
+				FBE5D9912A32DC8A0096C38A /* EditProfile.swift */,
 				04BE9CDF29567FEB0079FBA3 /* Main.storyboard */,
 				7A13BB3B297F9B1100BA8A0C /* HealthCareViewController.swift */,
 				049051B0296A771400FCF4E3 /* createAccountViewController.swift */,
-				049051AE296A752300FCF4E3 /* loginViewController.swift */,
+				041B5E662A35CA2900F2AD3C /* LoginSetUp */,
 				04BE9CE229567FEC0079FBA3 /* Assets.xcassets */,
 				04BE9CE429567FEC0079FBA3 /* LaunchScreen.storyboard */,
+				0454091A2A1B003200FC145E /* GoogleService-Info.plist */,
 				04BE9CE729567FEC0079FBA3 /* Info.plist */,
 				04904B43295E955700E8750B /* forgetPassViewcontroller.swift */,
-				04BE813D296EAB6100E86ABB /* GoogleService-Info.plist */,
 				7AB8C9692992068C00C751C4 /* PageViewController.swift */,
-				7AB8C96B2992093700C751C4 /* tutorialHandler.swift */,
 				044ABC7229AEEC030070B334 /* selectingDocument.swift */,
 				044ABC7429AEF2190070B334 /* DatePicker.swift */,
-				7AFDF4F529A7234700D6DCB9 /* ProfileVC.swift */,
+				7A90ECBC2A29A04900BA70A3 /* WelcomeTour */,
 				7AFDF4F729A8693E00D6DCB9 /* ManageProfileVC.swift */,
-				7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */,
-				7AF99B9529E6978A00B7692A /* CreateListingVC.swift */,
-				7AF99B9729E922B200B7692A /* AddImageCell.swift */,
 				7A51291B29F380EB001D532C /* MenuVC.swift */,
 				7A51291D29F3A326001D532C /* ChatVC.swift */,
 				7A51291F29F3AF97001D532C /* Message.swift */,
@@ -328,13 +366,35 @@
 			path = PickerSelection;
 			sourceTree = "<group>";
 		};
+		7A90ECBC2A29A04900BA70A3 /* WelcomeTour */ = {
+			isa = PBXGroup;
+			children = (
+				7AB8C96B2992093700C751C4 /* tutorialHandler.swift */,
+			);
+			path = WelcomeTour;
+			sourceTree = "<group>";
+		};
 		7A9CAC2E29DBC9EC00643E9F /* MarketPlace */ = {
 			isa = PBXGroup;
 			children = (
+				7A9CAC2C29DBC87900643E9F /* MarketPlaceVC.swift */,
+				7AF99B9529E6978A00B7692A /* CreateListingVC.swift */,
+				7AF99B9729E922B200B7692A /* AddImageCell.swift */,
 				7A9CAC2F29DBC9FC00643E9F /* MarketPlaceHeaderReusableView.swift */,
 				7A9CAC3529DE7E0500643E9F /* MarketPlaceCell.swift */,
 			);
 			path = MarketPlace;
+			sourceTree = "<group>";
+		};
+		7ABA47A72A2D3D5100299E17 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				044B1C9929F26834007FB9D0 /* FinalJobSubmissionPage */,
+				04DD743329E7BE540044CF13 /* ApplyingToJob */,
+				0460CA9B29D5336E006BB93B /* JobApplicationDetailedPage */,
+				0425855C29C3F8320084E657 /* jobPage */,
+			);
+			path = Jobs;
 			sourceTree = "<group>";
 		};
 		FB0648FC29EE103E00F5CA21 /* Chat  */ = {
@@ -420,9 +480,8 @@
 				FB9A4A8C29EF696E004E76A5 /* MessageKit */,
 				FB8DB7B729EF8F9A008B4DCC /* SDWebImage */,
 				FB8DB7B929EF8F9A008B4DCC /* SDWebImageMapKit */,
-				FB99C21E29F0C1D000E7BCEC /* GoogleSignIn */,
-				FB99C22029F0C1D000E7BCEC /* GoogleSignInSwift */,
 				044304622A00AACA00D0E7CE /* FacebookLogin */,
+				0496FA1E2A0DF94A00D09319 /* GoogleSignIn */,
 			);
 			productName = ImmiCan;
 			productReference = 04BE9CD629567FEB0079FBA3 /* ImmiCan.app */;
@@ -456,8 +515,8 @@
 				FB9A4A7629EF5A09004E76A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				FB9A4A8B29EF696E004E76A5 /* XCRemoteSwiftPackageReference "MessageKit" */,
 				FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				FB99C21D29F0C1D000E7BCEC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				044304612A00AACA00D0E7CE /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				0496FA1D2A0DF94A00D09319 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 04BE9CD729567FEB0079FBA3 /* Products */;
 			projectDirPath = "";
@@ -475,8 +534,7 @@
 			files = (
 				04BE9CE629567FEC0079FBA3 /* LaunchScreen.storyboard in Resources */,
 				04BE9CE329567FEC0079FBA3 /* Assets.xcassets in Resources */,
-				044B1C9F29F3982F007FB9D0 /* ProfileData in Resources */,
-				04BE813E296EAB6100E86ABB /* GoogleService-Info.plist in Resources */,
+				0454091B2A1B003200FC145E /* GoogleService-Info.plist in Resources */,
 				04BE9CE129567FEB0079FBA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,31 +553,42 @@
 				FB09DD7329F3420B00BCB2DD /* AuthenticationViewModel.swift in Sources */,
 				0458E3EF29F9F193001CC83B /* CreateAJobPostStructure.swift in Sources */,
 				FB9A4A8A29EF5D39004E76A5 /* ChatUser.swift in Sources */,
+				0449DF872A32DAFC00B52B06 /* profileDataCell.swift in Sources */,
 				FB9A4A8329EF5BCF004E76A5 /* MessageChat.swift in Sources */,
 				04AEF75E29A7278000076378 /* ImmigrationDocumentData.swift in Sources */,
+				0449DF832A32DACD00B52B06 /* profileData.swift in Sources */,
 				047F55C229C55F5200CAD8B7 /* jobPosting.swift in Sources */,
+				0449DF8F2A32DB4F00B52B06 /* ProfileVC.swift in Sources */,
 				0458E3EC29F8E5C5001CC83B /* TabBarController.swift in Sources */,
 				047F55C629C652B200CAD8B7 /* JobCell.swift in Sources */,
 				7A9CAC3229DE796100643E9F /* MarketPlaceTopView.swift in Sources */,
+				0449DF852A32DAEA00B52B06 /* profileData2.swift in Sources */,
 				FB06490029EE118600F5CA21 /* ImageCell.swift in Sources */,
 				044ABC7329AEEC030070B334 /* selectingDocument.swift in Sources */,
 				FBEE0FFE29F8A0C000581935 /* AddImagesHousing.swift in Sources */,
 				7A9CAC3429DE7A9600643E9F /* MarketPlaceCVData.swift in Sources */,
 				7AF42A5629EA729900E3CA31 /* ListingData.swift in Sources */,
 				7A9CAC3629DE7E0500643E9F /* MarketPlaceCell.swift in Sources */,
-				04BE9CDE29567FEB0079FBA3 /* ViewController.swift in Sources */,
+				04BE9CDE29567FEB0079FBA3 /* LoginSignUpVC.swift in Sources */,
 				04A9F9C829DE55FC005F387A /* SingleJobPage.swift in Sources */,
 				7A01250429FAFB9F0029458A /* MarketPlaceSelectionVC.swift in Sources */,
 				044ABC7529AEF2190070B334 /* DatePicker.swift in Sources */,
 				FBF25F1B29DBB86E00E111B9 /* HouseUser.swift in Sources */,
+<<<<<<< HEAD
+=======
 				7AFDF4F629A7234700D6DCB9 /* ProfileVC.swift in Sources */,
+				FBE5D9922A32DC8A0096C38A /* EditProfile.swift in Sources */,
+>>>>>>> profilepage
 				FB9A4A8529EF5BDC004E76A5 /* Chat.swift in Sources */,
 				FBF25F1729DBB82000E111B9 /* IntroductoryHousingCell.swift in Sources */,
 				FBF25F1D29DBB8C700E111B9 /* HousingViewController.swift in Sources */,
+				04CB9CD32A36E1F90039890C /* internalLoginFirebase.swift in Sources */,
 				FBF25F1529DBB82000E111B9 /* HousingCell.swift in Sources */,
+				041B5E6A2A35CA6700F2AD3C /* GoogleLogin.swift in Sources */,
 				04BE9CDA29567FEB0079FBA3 /* AppDelegate.swift in Sources */,
 				7A51292029F3AF97001D532C /* Message.swift in Sources */,
 				7A13BB3C297F9B1100BA8A0C /* HealthCareViewController.swift in Sources */,
+				04CB9CD52A36EE110039890C /* LoginInUIElements.swift in Sources */,
 				7AF99B9829E922B200B7692A /* AddImageCell.swift in Sources */,
 				7A01250229FA4AC60029458A /* provinceSelectedByUser.swift in Sources */,
 				7A9CAC2D29DBC87900643E9F /* MarketPlaceVC.swift in Sources */,
@@ -530,6 +599,7 @@
 				04D91D192A00B47C00AD4E0D /* FacebookLoginTest.swift in Sources */,
 				FB721F9F29BAF10300EEA377 /* DataProvider.swift in Sources */,
 				7A51291E29F3A326001D532C /* ChatVC.swift in Sources */,
+				0449DF8D2A32DB3100B52B06 /* profileDataProvider2.swift in Sources */,
 				04904B44295E955700E8750B /* forgetPassViewcontroller.swift in Sources */,
 				047F55C829C6E55C00CAD8B7 /* NameAndAvatarData.swift in Sources */,
 				0460CA9F29DBB16B006BB93B /* JobSpecifications.swift in Sources */,
@@ -538,14 +608,17 @@
 				7A9CAC3929DE886200643E9F /* MarketPlaceDataProvider.swift in Sources */,
 				04BE9CDC29567FEB0079FBA3 /* SceneDelegate.swift in Sources */,
 				7AB8C96A2992068C00C751C4 /* PageViewController.swift in Sources */,
+				0449DF8B2A32DB1C00B52B06 /* profileDataProvider.swift in Sources */,
 				0460CAA129DBB993006BB93B /* DetailedJobDiscriptionDataProvider.swift in Sources */,
 				FBF25F1929DBB85A00E111B9 /* HousingData.swift in Sources */,
 				7AFDF4F829A8693E00D6DCB9 /* ManageProfileVC.swift in Sources */,
+				0449DF892A32DB0B00B52B06 /* profileDataCell2.swift in Sources */,
 				0460CA9D29D67118006BB93B /* detailedJobPageViewController.swift in Sources */,
 				0458E3F229FA0437001CC83B /* JobFirstPage.swift in Sources */,
+				041B5E682A35CA5300F2AD3C /* FacebookLogin.swift in Sources */,
 				047F55C429C567E700CAD8B7 /* JobDataProvider.swift in Sources */,
 				FB721FA129BAF18D00EEA377 /* FriendsViewController.swift in Sources */,
-				049051AF296A752300FCF4E3 /* loginViewController.swift in Sources */,
+				049051AF296A752300FCF4E3 /* LoginViewController.swift in Sources */,
 				04DD743729E7C1AC0044CF13 /* ApplyingToJobViewElements.swift in Sources */,
 				FB9A4A8729EF5C3C004E76A5 /* ChatViewController.swift in Sources */,
 				7AB8C96C2992093700C751C4 /* tutorialHandler.swift in Sources */,
@@ -704,7 +777,8 @@
 				DEVELOPMENT_TEAM = KJ8DG56YFZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImmiCan/Info.plist;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app will use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You can select photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -733,7 +807,8 @@
 				DEVELOPMENT_TEAM = KJ8DG56YFZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImmiCan/Info.plist;
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app will use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You can select photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -783,20 +858,20 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		0496FA1D2A0DF94A00D09319 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.0.0;
-			};
-		};
-		FB99C21D29F0C1D000E7BCEC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
 			};
 		};
 		FB9A4A7629EF5A09004E76A5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
@@ -823,6 +898,11 @@
 			package = 044304612A00AACA00D0E7CE /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookLogin;
 		};
+		0496FA1E2A0DF94A00D09319 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0496FA1D2A0DF94A00D09319 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
 		FB8DB7B729EF8F9A008B4DCC /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */;
@@ -832,16 +912,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FB8DB7B629EF8F9A008B4DCC /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
-		};
-		FB99C21E29F0C1D000E7BCEC /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FB99C21D29F0C1D000E7BCEC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
-		};
-		FB99C22029F0C1D000E7BCEC /* GoogleSignInSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FB99C21D29F0C1D000E7BCEC /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignInSwift;
 		};
 		FB9A4A7729EF5A09004E76A5 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
